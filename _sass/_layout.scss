@@ -19,3 +19,21 @@
         margin: 0 auto;
     }
 }
+
+@media (min-width: 767px) {
+    #content-desktop {
+        display:block;
+    }
+    #content-mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #content-desktop {
+        display: none;
+    }
+    #content-mobile {
+        display: block;
+    }
+}

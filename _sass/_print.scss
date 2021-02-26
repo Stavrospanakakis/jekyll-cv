@@ -1,3 +1,22 @@
 @media print {
-
+    @page {
+        size: A4;
+    }
+    #content-desktop {
+        display: block;
+    }
+    #content-mobile {
+        display: none;
+    }
+    
+    .container {
+        margin:0;
+        padding:0;
+        box-shadow: none;
+        background-color: #ffffff;
+        .container-block {
+            padding:0;
+            
+        }
+    }
 }

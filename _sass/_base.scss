@@ -1,0 +1,51 @@
+@import "variables";
+@import "layout";
+@import "print";
+
+body {
+    background-color: $bg-color;
+    font-family: $font;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6, .header {
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: $header_font-size;
+    font-weight: 900;
+    color: $fg-color-dark;
+}
+
+a {
+    color: $fg-color-body;
+}
+
+.header {
+    color: $fg-color;
+    font-size: $title_font-size;
+    font-weight: 700;
+    margin-top:10px;
+}
+
+.title {
+    color: $fg-color;
+    font-size: $title_font-size;
+    font-weight: 700; 
+    
+}
+
+.body-text {
+    font-size: $body_font-size;
+    color: $fg-color-body;
+}
+
+section {
+    margin-top: 10px;
+}
+
+img {
+    width: 16px;
+    height:16px;
+}

@@ -3,13 +3,15 @@
     <div class="header">Volunteering</div>
     {% for vol in volunteering %}
         <div class="title">
-            {{vol.company}} — {{vol.time}}
-
-            {% if vol.link %}
-               | <a class="title" href={{vol.link}}>Link</a>
-            {% endif %}
+            {{vol.company}}
+            {% if vol.time %}
+                 <span class="lighter">{{vol.time}}</span>
+                {% endif %}
         </div>
         
-        <div style="margin-bottom:20px;"class="body-text">{{vol.details}}</div>    
+        <div class="body-text">{{vol.details}}</div>    
+        {% if vol.link %}
+            <a style="margin-bottom:20px;" class="body-text" href={{vol.link}}>Link</a>
+        {% endif %}
     {% endfor %}
 </section>

@@ -67,7 +67,6 @@ experience:
     website: 
 
   - role: CLI Development
-    time: 2021 
     company: lfl - Links for Lectures
     details: |
       Developed a command line interface which opens the lectures' virtual
@@ -75,18 +74,15 @@ experience:
       Webex links and is tested only in Linux environments.
     technologies_used: | 
       Go, Linux, NextJS, TailwindCSS
-    repository: https://github.com/Stavrospanakakis/lfl
     website: https://lfl.stavrospanakakis.com/
 
   - role: Web Development
-    time: 2021 
     company: COVID-19 Diagnosis
     details: |
       Developed a web application for a university assignment which detects
       COVID-19 with 96% accuracy. 
     technologies_used: | 
       Python, React, TypeScript, Docker, Linux, SCSS, HTML
-    repository: https://github.com/Stavrospanakakis/covid-19-diagnosis
     website: https://covid-19.stavrospanakakis.com/
 
 # Volunteering

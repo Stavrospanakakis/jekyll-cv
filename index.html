@@ -6,10 +6,11 @@
   <head>
     <link rel="stylesheet" href="{{'/assets/css/main.css' | absolute_url}}">
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>CV | {{name}}</title>
   </head>
   <body>
-    <div class="container">
+    <div id="content-desktop" class="container">
       <div class="fullname">
         <h1>Stavros Panakakis</h1>
       </div>
@@ -25,8 +26,8 @@
           {% include volunteering.html %}
         </div>
       </div>
-      
   </div>
+  <div id="content-mobile">Hello world</div>
 
   </body>
 </html

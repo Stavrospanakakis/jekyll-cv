@@ -1,0 +1,32 @@
+---
+---
+{% assign name = site.data.data.name %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="{{'/assets/css/main.css' | absolute_url}}">
+    <meta charset="utf-8">
+    <title>CV | {{name}}</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="fullname">
+        <h1>Stavros Panakakis</h1>
+      </div>
+      <div class="container-block">
+        <div class="sidebar">
+          {% include contact.html %}
+          {% include languages.html %}
+          {% include skills.html %}
+        </div>
+  
+        <div class="main">
+          {% include experience.html %}
+          {% include volunteering.html %}
+        </div>
+      </div>
+      
+  </div>
+
+  </body>
+</html

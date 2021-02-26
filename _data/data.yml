@@ -1,0 +1,108 @@
+name: Stavros Panakakis
+
+# Sidebar
+contact:
+  email: stavrospanakakis@gma
+    il.com
+  github: stavrospanakakis
+  linkedin: stavrospanakakis
+
+languages:
+  - idiom: English
+  - idiom: Greek
+
+skills:
+  backend: 
+    - skill: Go
+    - skill: Rest
+    - skill: MySQL
+    - skill: GraphQL
+    - skill: Postman
+    - skill: MongoDB
+  frontend:
+    - skill: React
+    - skill: Figma
+    - skill: GraphQL
+    - skill: TypeScript
+    - skill: JavaScript
+    - skill: HTML / CSS
+    - skill: SCSS
+  devops:
+    - skill: Jest
+    - skill: Linux
+    - skill: Travis
+    - skill: Docker
+  other:
+    - skill: Git
+    - skill: Jira
+
+# Experience
+experience:
+  - role: Web Development
+    time: 2020-Present
+    company: Logifox Stores
+    details: |
+      Developing object oriented code, unit tests and GraphQL queries for a
+      professional tool which helps businesses to manage their store & stock. It is
+      for customers who acquire a set of databases with fields with traceable
+      history and user permissions.
+    technologies_used: | 
+      Go, React, TypeScript, Docker, MongoDB, Linux,
+      GraphQL, REST, Git, Jest
+    repository: 
+    website: 
+  
+  - role: Research
+    time: 2019-2020
+    company: Ionian University
+    details: |
+      Presented a scientific paper called "An application for exploring visual
+      perception. A pilot neuroeducational study." at GeNeDis 2020 (Worldwide
+      congress). It is about a pilot mobile application which helps elderly and
+      children with mental problems to train their brain based on the Rey -
+      Osterreith Complex Figure Test. 
+    technologies_used: | 
+      Java, Python, REST, Git
+    repository: 
+    website: 
+
+  - role: CLI Development
+    time: 2021 
+    company: lfl - Links for Lectures
+    details: |
+      Developed a command line interface which opens the lectures' virtual
+      meeting of your choice from terminal. It currently supports only Zoom &
+      Webex links and is tested only in Linux environments.
+    technologies_used: | 
+      Go, Linux, NextJS, TailwindCSS
+    repository: https://github.com/Stavrospanakakis/lfl
+    website: https://lfl.stavrospanakakis.com/
+
+  - role: Web Development
+    time: 2021 
+    company: COVID-19 Diagnosis
+    details: |
+      Developed a web application for a university assignment which detects
+      COVID-19 with 96% accuracy. 
+    technologies_used: | 
+      Python, React, TypeScript, Docker, Linux, SCSS, HTML
+    repository: https://github.com/Stavrospanakakis/covid-19-diagnosis
+    website: https://covid-19.stavrospanakakis.com/
+
+# Volunteering
+volunteering:
+  - time: 2020-Present
+    company: Ionian IEEE Student Branch
+    details: |
+      Managing the social media pages, contributing to the events' planning,
+      recruited new members and hosted a Linux & Terminal Essentials Webinar for
+      beginners.
+    link: https://youtu.be/MfYOgC4CStM
+
+  - time: 2019-2020
+    company: TEDxIonianUniversity
+    details: |
+      Developed the main functionality of an eshop for selling event tickets (200+
+      sold), chose the appropriate platform for the main virtual event and worked
+      with strict deadlines.
+    link:

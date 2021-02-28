@@ -1,14 +1,17 @@
 {% assign volunteering = site.data.data.volunteering %}
 <section class="volunteering">
-    <h2 class="header">Volunteering</h2>
+    <h2 class="title">Volunteering</h2>
     {% for vol in volunteering %}
-        <div class="title">
-            {{vol.company}}
-            {% if vol.time %}
-                 <span class="lighter">{{vol.time}}</span>
-                {% endif %}
+        <div class="volunteering-item">
+            <div class="role">
+                {{vol.role}}
+            </div>
+            <div class="organization">
+                {{vol.company}}
+                <span class="time">{{vol.time}}</span>
+            </div>
+            <div class="details">{{vol.details}}</div>    
         </div>
         
-        <div class="body-text">{{vol.details}}</div>    
     {% endfor %}
 </section>

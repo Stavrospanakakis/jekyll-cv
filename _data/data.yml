@@ -59,12 +59,12 @@ experience:
       Python, Tensorflow, Keras, Matlab
 
 publications:
-  - title: Random title of paper
+  - title: Random title of paper. An interested one.
     link: "#"
     authors: John E. Doe
     conference: Some conference, 2016
 
-  - title: Second title of paper
+  - title: Second title of paper. An interested one too.
     link: "#"
     authors: John E. Doe
     conference: Some conference again, 2018
@@ -85,6 +85,7 @@ projects:
 # Volunteering
 volunteering:
   - time: 2020-Present
+    role: PR Manager
     company: Some random organization
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

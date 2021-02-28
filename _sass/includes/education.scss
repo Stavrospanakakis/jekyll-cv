@@ -1,0 +1,19 @@
+.education {
+    margin-bottom: 20px;
+    .title {
+        @include sub-header;
+    }
+    .education-item {
+        margin-bottom: 20px;
+        .degree {
+            @include body-text;
+            font-weight: bold;
+        }
+        .university {
+            @include body-text;
+        }
+        .time {
+            @include body-text;
+        }
+    }
+}

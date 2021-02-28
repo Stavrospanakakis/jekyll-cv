@@ -2,7 +2,7 @@
 <section class="contact">
     <div class="title">Contact</div>
     {% if contact.email %}
-        <div class="body-text contact-item">
+        <div class="contact-item">
             <i data-feather="mail"></i>
             <a href="#">
                 {{contact.email}}
@@ -11,7 +11,7 @@
     {% endif %}
 
     {% if contact.phone %}
-        <div class="body-text contact-item">
+        <div class="contact-item">
             <i data-feather="phone"></i>
             <a href="#">
                 {{contact.phone}}
@@ -20,7 +20,7 @@
     {% endif %}
 
     {% if contact.github %}
-        <div class="body-text contact-item">
+        <div class="contact-item">
             <i data-feather="github"></i>
             <a href="https://github.com/{{contact.github}}">
                 {{contact.github}}
@@ -29,7 +29,7 @@
     {% endif %}
 
     {% if contact.linkedin %}
-        <div class="body-text contact-item">
+        <div class="contact-item">
             <i data-feather="linkedin"></i>
             <a href="https://linkedin.com/in/{{contact.linkedin}}">
                 {{contact.linkedin}}
@@ -38,7 +38,7 @@
     {% endif %}
 
     {% if contact.twitter %}
-        <div class="body-text contact-item">
+        <div class="contact-item">
             <i data-feather="twitter"></i>
             <a href="https://twitter.com/{{contact.twitter}}">
                 {{contact.twitter}}
@@ -47,7 +47,7 @@
     {% endif %}
 
     {% if contact.gitlab %}
-        <div class="body-text contact-item">
+        <div class="contact-item">
             <i data-feather="gitlab"></i>
             <a href="https://gitlab.com/{{contact.gitlab}}">
                 {{contact.gitlab}}

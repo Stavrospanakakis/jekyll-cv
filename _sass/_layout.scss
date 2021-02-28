@@ -14,38 +14,5 @@
         display: grid;
         grid-template-columns: 2fr 5fr;
     }
-    .top {
-        width: 90%;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        input[type="checkbox"] {
-            width: 0;
-            height:0;
-        }
-        label {
-            cursor: pointer;
-            color: var(--fg-color-dark);
-            
-        }
-    }
-}
 
-@media (min-width: 767px) {
-    #content-desktop {
-        display:block;
-    }
-    #content-mobile {
-        display: none;
-    }
-}
-
-@media (max-width: 767px) {
-    #content-desktop {
-        display: none;
-    }
-    #content-mobile {
-        display: block;
-    }
 }

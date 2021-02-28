@@ -11,14 +11,8 @@
     <title>CV | {{data.name}}</title>
   </head>
   <body>
-    <div id="content-desktop" class="container">
-      <div class="top">
-        <h1>{{data.name}}</h1>
-        {% if data.support_dark_mode%}
-          <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-          <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
-        {%endif%}
-      </div>
+    <div class="container">
+      {% include header.html %}
       <div class="container-block">
         <div class="sidebar">
           {% include contact.html %}
@@ -35,14 +29,10 @@
         </div>
       </div>
   </div>
-  <div id="content-mobile">
-    CV is not available for mobile.
-    <div><a href="#">View as pdf</a></div>
-  </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 {% if data.support_dark_mode%}
-<script src="{{'/assets/javascript/toggleDark.js' | absolute_url}}"></script>
+  <script src="{{'/assets/javascript/toggleDark.js' | absolute_url}}"></script>
 {% endif %}
 <script>
   feather.replace()

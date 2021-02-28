@@ -1,11 +1,11 @@
 {% assign education = site.data.data.education %}
-<section class="experiance">
+<section class="education">
     <div class="title">Education</div>
     {% for ed in education %}
-        <div style="font-weight: bold;" class="sub-header">
-            {{ed.degree}}
+        <div class="education-item">
+            <div class="degree">{{ed.degree}}</div>
+            <div class="university">{{ed.university}}</div> 
+            <div class="time">{{ed.time}}</div>
         </div>
-        <div class="sub-header">{{ed.university}}</div> 
-        <div class="sub-header" style="opacity: 0.75;">{{ed.time}}</div>
     {% endfor %}
 </section>

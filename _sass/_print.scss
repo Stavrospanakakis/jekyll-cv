@@ -2,13 +2,6 @@
     @page {
         size: A4;
     }
-    #content-desktop {
-        display: block;
-    }
-    #content-mobile {
-        display: none;
-    }
-    
     .container {
         margin:0;
         padding:0;
@@ -19,7 +12,7 @@
             padding:0;
             
         }
-        .top {
+        .header {
             input, label {
                 display: none;
             }

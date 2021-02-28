@@ -4,23 +4,11 @@
     {% for exp in experience %}
         <div class="title">
             {{exp.role}}
-            <div class="company">
-                {{exp.company}}   
-
-                {% if exp.website %}
-                <span>
-                    <a class="lighter" href={{exp.website}}>Website</a>
-                </span>
-                {% endif %}
-
-                {% if exp.time %}
-                 <span class="lighter">{{exp.time}}</span>
-                {% endif %}
+            <div class="sub-header">
+                {{exp.company}} 
+                <span class="lighter">{{exp.time}}</span>
             </div> 
-            
-        
         </div>
-        
         <div class="body-text">{{exp.details}}</div>
         <p class="body-text"> Technologies Used: {{exp.technologies_used}}</p>
     {% endfor %}

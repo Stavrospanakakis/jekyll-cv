@@ -18,5 +18,10 @@
             padding:0;
             
         }
+        .top {
+            input, label {
+                display: none;
+            }
+        }
     }
 }

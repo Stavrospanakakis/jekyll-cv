@@ -5,14 +5,17 @@
 <html>
   <head>
     <link rel="stylesheet" href="{{'/assets/css/main.css' | absolute_url}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>CV | {{name}}</title>
   </head>
   <body>
     <div id="content-desktop" class="container">
-      <div class="fullname">
+      <div class="top">
         <h1>Stavros Panakakis</h1>
+        <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
+        <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
       </div>
       <div class="container-block">
         <div class="sidebar">
@@ -31,6 +34,10 @@
     CV is not available for mobile.
     <div><a href="#">View as pdf</a></div>
   </div>
-
-  </body>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script src="{{'/assets/javascript/toggleDark.js' | absolute_url}}"></script>
+<script>
+  feather.replace()
+</script>
 </html

@@ -1,0 +1,18 @@
+:root {
+    --bg-color: #f1f1f1;
+    --bg-color-cv: #ffffff;
+    --fg-color: #00629b;
+    --fg-color-dark: #023b5b;
+    --fg-color-body: #5e6369;
+    --fg-color-title-sm: #688293;
+
+}
+
+[data-theme='dark'] {
+    --bg-color: #28343b;
+    --bg-color-cv: #1b262c;
+    --fg-color: #3282b8;
+    --fg-color-dark: #3282b8;
+    --fg-color-body: rgba(187,225,250,0.75);
+    --fg-color-title-sm: #688293;
+}

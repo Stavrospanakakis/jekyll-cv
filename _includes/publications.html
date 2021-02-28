@@ -1,0 +1,11 @@
+{% assign publications = site.data.data.publications %}
+<section class="publications">
+    <h2 class="header"><span>Publications</span></h2>
+    {% for pub in publications%}
+        <div>
+            <a href="{{pub.link}}">{{pub.title}}</a>
+        </div>
+        <div>{{pub.authors}}</div>
+        <div>{{pub.conference}}</div>
+    {%endfor%}
+</section>

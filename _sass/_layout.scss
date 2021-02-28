@@ -1,5 +1,5 @@
 .container {
-    max-width: 800px;
+    max-width: 900px;
     min-height: 900px;
     margin: 0 auto;
     background-color: var(--bg-color-cv);
@@ -12,7 +12,7 @@
         margin: 0 auto;
         padding:20px;
         display: grid;
-        grid-template-columns: 1fr 3fr;
+        grid-template-columns: 2fr 5fr;
     }
     .top {
         width: 90%;

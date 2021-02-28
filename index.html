@@ -1,6 +1,6 @@
 ---
 ---
-{% assign name = site.data.data.name %}
+{% assign data = site.data.data %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -8,14 +8,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>CV | {{name}}</title>
+    <title>CV | {{data.name}}</title>
   </head>
   <body>
     <div id="content-desktop" class="container">
       <div class="top">
         <h1>Stavros Panakakis</h1>
-        <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-        <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
+        {% if data.support_dark_mode%}
+          <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
+          <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
+        {%endif%}
       </div>
       <div class="container-block">
         <div class="sidebar">
@@ -36,7 +38,9 @@
   </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+{% if data.support_dark_mode%}
 <script src="{{'/assets/javascript/toggleDark.js' | absolute_url}}"></script>
+{% endif %}
 <script>
   feather.replace()
 </script>

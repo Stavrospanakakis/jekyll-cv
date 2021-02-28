@@ -2,4 +2,7 @@
 ---
 
 @import "base";
-@import "variables";
+@import "layout";
+@import "print";
+@import "skins/{{ site.theme_skin}}";
+

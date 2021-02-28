@@ -13,7 +13,7 @@
   <body>
     <div id="content-desktop" class="container">
       <div class="top">
-        <h1>Stavros Panakakis</h1>
+        <h1>{{data.name}}</h1>
         {% if data.support_dark_mode%}
           <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
           <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
@@ -23,11 +23,14 @@
         <div class="sidebar">
           {% include contact.html %}
           {% include languages.html %}
-          {% include skills.html %}
+          {% include education.html %}
         </div>
   
         <div class="main">
+          {% include career-profile.html %}
           {% include experience.html %}
+          {% include publications.html %}
+          {% include projects.html %}
           {% include volunteering.html %}
         </div>
       </div>

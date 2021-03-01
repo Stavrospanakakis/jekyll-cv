@@ -1,37 +1,21 @@
-# sw-cv - In Progress
+# CV jekyll theme
 
-University assignment about the development of my CV using Jekyll.
+Free theme for the creation of your CV. View demo [here](jekyll-cv.stavrospanakakis.com).
 
-## Run
+## Preview
+![Preview](./preview.png)
 
-### Docker
-You should have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/install/) installed.
+## Installation
+- [Fork](https://github.com/stavrospanakakis/jekyll-cv/fork) the repository
+- Create a ```gh-pages``` branch
+- Go to Settings and select ```gh-pages``` as Github Pages source
+- Replace dummy data at ```_data/data.yml``` and ```_config.yml```
+- You're done!
 
-```
-# Clone the repository
-$ git clone https://github.com/Stavrospanakakis/sw-cv.git
+Go to https://username.github.io/jekyll-cv/
 
-# Navigate to the project folder
-$ cd sw-cv
+## Contributing 
+- Feel free to open issues and create pull requests for new features or skins
 
-# Run server
-$ docker-compose up --build
-```
-Browse to http://localhost:4000
-
-
-### Manually
-- Install all [prerequisites](https://jekyllrb.com/docs/installation/)
-- Install the jekyll and [bundler gems](https://jekyllrb.com/docs/ruby-101/#gems)
-
-```
-# Clone the repository
-$ git clone https://github.com/Stavrospanakakis/sw-cv.git
-
-# Navigate to the project folder
-$ cd sw-cv
-
-# Run server
-$ bundle exec jekyll serve
-```
-Browse to http://localhost:4000
+## License
+- [MIT](./LICENSE)

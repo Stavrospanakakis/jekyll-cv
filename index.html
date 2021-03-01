@@ -1,41 +1,22 @@
 ---
+layout: default
 ---
-{% assign data = site.data.data %}
-<!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="{{'/assets/css/main.css' | absolute_url}}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>CV | {{data.name}}</title>
-  </head>
-  <body>
-    <div class="container">
-      {% include header.html %}
-      <div class="container-block">
-        <div class="sidebar">
-          {% include contact.html %}
-          {% include languages.html %}
-          {% include education.html %}
-          {% include skills.html %}
-        </div>
-  
-        <div class="main">
-          {% include career-profile.html %}
-          {% include experience.html %}
-          {% include publications.html %}
-          {% include projects.html %}
-          {% include volunteering.html %}
-        </div>
-      </div>
+<div class="container">
+  {% include header.html %}
+  <div class="container-block">
+    <div class="sidebar">
+      {% include contact.html %}
+      {% include languages.html %}
+      {% include education.html %}
+      {% include skills.html %}
+    </div>
+
+    <div class="main">
+      {% include career-profile.html %}
+      {% include experience.html %}
+      {% include publications.html %}
+      {% include projects.html %}
+      {% include volunteering.html %}
+    </div>
   </div>
-</body>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-{% if data.support_dark_mode%}
-  <script src="{{'/assets/javascript/toggleDark.js' | absolute_url}}"></script>
-{% endif %}
-<script>
-  feather.replace()
-</script>
-</html
+</div>

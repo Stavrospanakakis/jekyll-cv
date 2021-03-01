@@ -24,6 +24,20 @@ education:
     time: 2010-2014
     university: Ionian University
 
+skills:
+  - category: Backend
+    skill: 
+      - Go
+      - Rust
+  - category: Frontend
+    skill:
+      - React
+      - Typescript
+  - category: DevOps
+    skill:
+      - Docker
+      - Kubernetes 
+
 # Profile
 profile: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

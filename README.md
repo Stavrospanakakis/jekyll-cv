@@ -18,4 +18,4 @@ Go to https://username.github.io/jekyll-cv/
 - Feel free to open issues and create pull requests for new features or skins
 
 ## License
-- [Apache License](./LICENSE)
+- [MIT](./LICENSE)

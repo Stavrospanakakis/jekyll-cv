@@ -10,3 +10,6 @@ sass:
 
 plugins:
     - jekyll-minifier
+
+exclude:
+  - docker-compose.yml

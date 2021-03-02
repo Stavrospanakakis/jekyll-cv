@@ -1,0 +1,14 @@
+{% assign projects = site.data.data.projects %}
+<section class="projects">
+    <h2 class="title">Projects</h2>
+    {% for p in projects %}
+        <div class="project">
+            <span>
+                <a class="project-link" href="{{p.link}}">
+                    {{p.title}}
+                </a>
+            </span>
+            <span class="details">- {{p.details}}</span>
+        </div>
+    {% endfor %}
+</section>

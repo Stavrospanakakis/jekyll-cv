@@ -1,11 +1,57 @@
 {% assign contact = site.data.data.contact %}
 <section class="contact">
     <div class="title">Contact</div>
-    <div class="body-text" style="text-decoration: underline;">{{contact.email}}</div>
-    <p class="body-text">
-        <a href="https://www.linkedin.com/in/{{contact.linkedin}}">Linkedin</a>
-    </p>
-    <p class="body-text">
-        <a href="https://github.com/{{contact.github}}">Github</a>
-    </p>
+    {% if contact.email %}
+        <div class="contact-item">
+            <i data-feather="mail"></i>
+            <a href="#">
+                {{contact.email}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.phone %}
+        <div class="contact-item">
+            <i data-feather="phone"></i>
+            <a href="#">
+                {{contact.phone}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.github %}
+        <div class="contact-item">
+            <i data-feather="github"></i>
+            <a href="https://github.com/{{contact.github}}">
+                {{contact.github}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.linkedin %}
+        <div class="contact-item">
+            <i data-feather="linkedin"></i>
+            <a href="https://linkedin.com/in/{{contact.linkedin}}">
+                {{contact.linkedin}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.twitter %}
+        <div class="contact-item">
+            <i data-feather="twitter"></i>
+            <a href="https://twitter.com/{{contact.twitter}}">
+                {{contact.twitter}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.gitlab %}
+        <div class="contact-item">
+            <i data-feather="gitlab"></i>
+            <a href="https://gitlab.com/{{contact.gitlab}}">
+                {{contact.gitlab}}
+            </a>
+        </div>
+    {% endif %}
 </section>

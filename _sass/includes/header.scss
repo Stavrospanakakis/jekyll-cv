@@ -1,0 +1,21 @@
+.header {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+        color: var(--fg-color-dark);
+        font-weight: bolder;
+        text-transform: uppercase;
+    }
+    input[type="checkbox"] {
+        width: 0;
+        height:0;
+    }
+    label {
+        cursor: pointer;
+        color: var(--fg-color-dark);
+        
+    }
+}

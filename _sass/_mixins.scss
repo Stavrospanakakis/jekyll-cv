@@ -1,0 +1,32 @@
+@mixin header {
+    color: var(--fg-color);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    &:before, &:after{
+        content: "";
+        flex: 1 1;
+        border-bottom: 1px solid;
+        margin: auto;
+    }
+    &:before {
+        margin-right: 10px
+    }
+    &:after {
+        margin-left: 10px
+    }
+}
+
+@mixin sub-header {
+    font-size: 16px;
+    font-weight: 700; 
+    color: var(--fg-color);
+}
+
+@mixin body-text {
+    color: var(--fg-color-body);
+    font-size: 14px;
+}

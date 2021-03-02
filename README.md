@@ -1,6 +1,6 @@
 # CV jekyll theme
 
-Free theme for the creation of your CV. View demo [here](https://stavrospanakakis.github.io/jekyll-cv/).
+Free theme for the creation of your CV. View demo [here](https://stavrospanakakis.com/jekyll-cv/).
 
 ## Preview
 ![Preview](./preview.png)

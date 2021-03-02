@@ -1,4 +1,5 @@
 {% assign publications = site.data.data.publications %}
+{% if publications %}
 <section class="publications">
     <h2 class="title">Publications</h2>
     <div class="publication-items">
@@ -12,5 +13,5 @@
             </div>
         {%endfor%}
     </div>
-
 </section>
+{% endif %}

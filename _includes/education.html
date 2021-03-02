@@ -1,4 +1,5 @@
 {% assign education = site.data.data.education %}
+{% if education %}
 <section class="education">
     <div class="title">Education</div>
     {% for ed in education %}
@@ -9,3 +10,4 @@
         </div>
     {% endfor %}
 </section>
+{% endif %}

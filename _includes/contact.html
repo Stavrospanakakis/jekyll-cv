@@ -1,4 +1,5 @@
 {% assign contact = site.data.data.contact %}
+{% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
     {% if contact.email %}
@@ -55,3 +56,4 @@
         </div>
     {% endif %}
 </section>
+{% endif %}

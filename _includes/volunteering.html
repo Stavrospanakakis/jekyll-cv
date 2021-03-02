@@ -1,4 +1,5 @@
 {% assign volunteering = site.data.data.volunteering %}
+{% if volunteering %}
 <section class="volunteering">
     <h2 class="title">Volunteering</h2>
     {% for vol in volunteering %}
@@ -15,3 +16,4 @@
         
     {% endfor %}
 </section>
+{% endif %}

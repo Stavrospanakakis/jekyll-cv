@@ -1,4 +1,5 @@
 {% assign skills = site.data.data.skills %}
+{% if skills %}
 <section class="skills">
     {% for sks in skills %}
         <div class="title">{{sks.category}} skills</div>
@@ -7,3 +8,4 @@
         {% endfor %}
     {% endfor %}
 </section>
+{% endif %}

@@ -1,9 +1,0 @@
-version: '3.3'
-services:
-  jekyll:
-    image: jekyll/jekyll:3.8
-    command: jekyll serve 
-    ports:
-      - 4000:4000
-    volumes:
-      - .:/srv/jekyll

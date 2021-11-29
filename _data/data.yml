@@ -14,7 +14,6 @@ contact:
 languages:
   - idiom: English
   - idiom: Russian
-  - idiom: French
 
 education:
   - degree: MSc in Informatics
@@ -26,18 +25,10 @@ education:
     university: Ionian University
 
 skills:
-  - category: Backend
+  - category: Technical Writing
     skill:
       - Go
       - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes
 
 # Profile
 profile: |

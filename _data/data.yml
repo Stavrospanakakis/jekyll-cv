@@ -1,29 +1,27 @@
-name: John Doe
+name: Konstantin Kozulko
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: 2913814@gmail.com
+  phone: +380 93 875 13 57
+  telegram: kostanproff
+  github: kostanproff
+  linkedin: kostanproff
   gitlab: 
   twitter: 
 
 languages:
-  - idiom: English
   - idiom: Russian
-  - idiom: French
+  - idiom: Ukranian
+  - idiom: English
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+    university: Kyiv National University Of Construction And Architecture
+  - degree: Bachelor Of Computer Applications
+Field Of Study IT
+    time: 1999-2005
 
 skills:
   - category: Backend

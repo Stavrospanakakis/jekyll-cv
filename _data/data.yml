@@ -19,13 +19,10 @@ education:
   - degree: BSc in Informatics
     time: 2019 - present 
     university: Ionian University
-    
   - webinar: Ethical-Hacking
     company: Audax
-  
   - webinar: Responsive Web Design
     company: freecodecamp
-    
   - webinar: Webpage Dev
     company: Google (Grow Greek Tourism)
 
@@ -43,11 +40,10 @@ skills:
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  I am a young programmer where I aim to be able to post and get my footing in this science. 
+  I am fascinated by the idea that I can understand how one of the most important tools we have as a human being works.
+  But beyond the science part I have other hobbies,
+  I like to read and work out and spend time with people I know and strangers.
 
 # Experience
 experience:

@@ -1,43 +1,36 @@
-name: John Doe
+name: Angelo Thomos
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: thomosangelos@gmail.com
+  github: Angeloth1
+  linkedin: athomos
+  phone: 6949809401
   gitlab: 
   twitter: 
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Greeks
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
-
-  - degree: BSc in Computer Science
-    time: 2010-2014
+  - degree: BSc in Informatics
+    time: 2019 - present 
     university: Ionian University
 
 skills:
   - category: Backend
     skill: 
-      - Go
-      - Rust
+      - Javascript
   - category: Frontend
     skill:
-      - React
-      - Typescript
+      - HTML5
+      - CSS
   - category: DevOps
     skill:
-      - Docker
-      - Kubernetes 
+      - Docker 
 
 # Profile
 profile: |

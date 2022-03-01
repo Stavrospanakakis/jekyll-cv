@@ -19,6 +19,15 @@ education:
   - degree: BSc in Informatics
     time: 2019 - present 
     university: Ionian University
+    
+  - webinar: Ethical-Hacking
+    company: Audax
+  
+  - webinar: Responsive Web Design
+    company: freecodecamp
+    
+  - webinar: Webpage Dev
+    company: Google (Grow Greek Tourism)
 
 skills:
   - category: Backend

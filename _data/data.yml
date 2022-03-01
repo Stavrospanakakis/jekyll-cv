@@ -1,78 +1,103 @@
-name: Angelo Thomos
+name: John Doe
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: thomosangelos@gmail.com
-  github: Angeloth1
-  linkedin: athomos
-  phone: 6949809401
+  email: info@johndoe.com
+  github: johndoe
+  linkedin: johndoe
+  phone: 
   gitlab: 
   twitter: 
 
 languages:
   - idiom: English
-  - idiom: Greeks
+  - idiom: Russian
+  - idiom: French
 
 education:
-  - degree: BSc in Informatics
-    time: 2019 - present 
+  - degree: MSc in Informatics
+    time: 2014-2016
     university: Ionian University
-  
+
+  - degree: BSc in Computer Science
+    time: 2010-2014
+    university: Ionian University
+
 skills:
   - category: Backend
     skill: 
-      - Javascript
+      - Go
+      - Rust
   - category: Frontend
     skill:
-      - HTML5
-      - CSS
+      - React
+      - Typescript
   - category: DevOps
     skill:
-      - Docker 
+      - Docker
+      - Kubernetes 
 
 # Profile
 profile: |
-  I am a young programmer where I aim to be able to post and get my footing in this science. 
-  I am fascinated by the idea that I can understand how one of the most important tools we have as a human being works.
-  But beyond the science part I have other hobbies,
-  I like to read and work out and spend time with people I know and strangers.
-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+  fugiat nulla pariatur.
 # Experience
-Seminars:
-  - webinar: Ethical-Hacking
-    company: Audax
-  - webinar: Responsive Web Design
-    company: freecodecamp
-  - webinar: Webpage Dev
-    company: Google (Grow Greek Tourism)
+experience:
+  - role: Software Engineer
+    time: 2020-Present
+    company: Google
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+      fugiat nulla pariatur.
+    technologies_used: | 
+      Go, Angular, Typescript, C++
+  
+  - role: Researcher
+    time: 2016-2020
+    company: Microsoft
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+      fugiat nulla pariatur.
+    technologies_used: | 
+      Python, Tensorflow, Keras, Matlab
+publications:
+  - title: Random title of paper. An interesting one.
+    link: "#"
+    authors: John E. Doe
+    conference: Some conference, 2016
 
+  - title: Second title of paper. An interesting one too.
+    link: "#"
+    authors: John E. Doe
+    conference: Some conference again, 2018
 
-#publications:
-#  - title: Random title of paper. An interesting one.
-#     link: "#"
-#     authors: John E. Doe
-#     conference: Some conference, 2016
-
-#   - title: Second title of paper. An interesting one too.
-#     link: "#"
-#    authors: John E. Doe
-#     conference: Some conference again, 2018
-
-#projects:
- # - title: 
-  #  link: #
-   # details: |
-  #- title: 
-   # link: #
-    #details: 
-      
+projects:
+  - title: Cool Project 
+    link: #
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua.
+  - title: Cool Project 
+    link: #
+    details: |
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+      tempor incididunt ut labore et dolore magna aliqua.
 # Volunteering
 volunteering:
-  - time: 2021-Present
-    role: AP Member
-    company: IEEE IONIAN SB
+  - time: 2020-Present
+    role: PR Manager
+    company: Some random organization
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 

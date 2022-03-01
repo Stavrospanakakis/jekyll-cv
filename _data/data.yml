@@ -33,7 +33,6 @@ skills:
     skill:
       - Python
       - java
-      - javascript
       - assembly (nasm/masm)
       - javascript
       - Bash
@@ -42,14 +41,15 @@ skills:
     skill:
       - Security Onion
       - VPN
-  - category: tools
+  - category: Tools/Other
     skill:
-      - Comfortable with Debian and Arch based distributions of GNULinux
+      - GNULinux
       - git, SSH, FTP, and other CLI tools
+      - familiarity with mySQL
 
 # Profile
-profile: |
-  What I lack in experience I make up for in determination, I don't accept null solutions.
+#profile: |
+# What I lack in experience I make up for in determination, I don't accept null solutions
 
 # Experience
 experience:
@@ -60,6 +60,7 @@ experience:
       Managing the company workflow, collaborating with product managers to ensure customers are satisfied with our services.
        Decommissioned 200 laptops returned from various companies. Audited contractor hours for the accounting department to overlook.
     technologies_used: |
+      Microsoft Office, in-house database
 
 projects:
   - title: Lambdadelta (IP)

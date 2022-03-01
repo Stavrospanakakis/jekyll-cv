@@ -1,108 +1,82 @@
-name: John Doe
+name: Gale S.
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: igotacategorytheory@tuta.io
+  github: https://github.com/igotacategorytheory
+  linkedin: https://www.linkedin.com/in/asaenz2965bb7421a
+  phone:
+  gitlab:
+  twitter:
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Spanish
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: Computer Science
+    time: August 2015 - May 2020
+    university: Cerritos College
+
+  - degree: Computer Science
+    time: May 2018 - July 2019
+    university: Long Beach City College
 
   - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+    time: August 2020 - May 2022
+    university: California State University-Dominguez Hills
 
 skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
+  - category: Programming and Scripting
     skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - Python
+      - java
+      - javascript
+      - assembly (nasm/masm)
+      - javascript
+      - Bash
+      - Powershell
+  - category: Security Architecture
     skill:
-      - Docker
-      - Kubernetes 
+      - Security Onion
+      - VPN
+  - category: tools
+    skill:
+      - Comfortable with Debian and Arch based distributions of GNULinux
+      - git, SSH, FTP, and other CLI tools
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  What I lack in experience I make up for in determination, I don't accept null solutions.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Project Management (Intern)
+    time: July 2018 - December 2018
+    company: Information Technology Partners
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
-
-publications:
-  - title: Random title of paper. An interesting one.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference, 2016
-
-  - title: Second title of paper. An interesting one too.
-    link: "#"
-    authors: John E. Doe
-    conference: Some conference again, 2018
+      Managing the company workflow, collaborating with product managers to ensure customers are satisfied with our services.
+       Decommissioned 200 laptops returned from various companies. Audited contractor hours for the accounting department to overlook.
+    technologies_used: |
 
 projects:
-  - title: Cool Project 
+  - title: Lambdadelta (IP)
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Real time risk analysis and DDoS mitigation, uses machine learning to achieve this with Gaussian Mixture Models.
 
-  - title: Cool Project 
+  - title: HAL
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      a.k.a "home at lab", personal homelab - cloud & email server, Pi-hole
 
 # Volunteering
 volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - time: 2017 - 2019
+    role: TESPA Chapter Leader (Cerritos College)
+    company: Anxiety Gaming / Rise Above
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      A non-profit addressing mental health issues among the e-sports and gaming community. We worked closely with mental health professionals
+      in finding members affordable treatment options. Club events consisted of organizing Overwatch and Smash Bros Tournaments.

@@ -1,7 +1,7 @@
-title: CV | A jekyll template
-description:  A beautiful template for your CV.
-url: https://jekyll-cv.stavrospanakakis.com
-baseurl: ''
+title: resume
+description:
+url: https://igotacategorytheory.github.io/
+baseurl: ""
 theme_skin: blue
 
 sass:
@@ -9,7 +9,7 @@ sass:
   style: compressed
 
 plugins:
-    - jekyll-minifier
+  - jekyll-minifier
 
 exclude:
   - docker-compose.yml

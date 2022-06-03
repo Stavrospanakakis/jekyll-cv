@@ -1,15 +1,15 @@
-name: John Doe
+name: Luke Leigh
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: me@lukeleigh.com
+  github: BanterBoy
+  linkedin: lukeleigh
+  phone:
+  gitlab:
+  twitter: luke_leighs
 
 languages:
   - idiom: English
@@ -26,18 +26,10 @@ education:
     university: Ionian University
 
 skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
+  - category:
     skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+      -
+      -
 
 # Profile
 profile: |
@@ -58,9 +50,9 @@ experience:
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       fugiat nulla pariatur.
-    technologies_used: | 
+    technologies_used: |
       Go, Angular, Typescript, C++
-  
+
   - role: Researcher
     time: 2016-2020
     company: Microsoft
@@ -70,7 +62,7 @@ experience:
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       fugiat nulla pariatur.
-    technologies_used: | 
+    technologies_used: |
       Python, Tensorflow, Keras, Matlab
 
 publications:
@@ -85,13 +77,13 @@ publications:
     conference: Some conference again, 2018
 
 projects:
-  - title: Cool Project 
+  - title: Cool Project
     link: #
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua.
 
-  - title: Cool Project 
+  - title: Cool Project
     link: #
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
@@ -105,4 +97,4 @@ volunteering:
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

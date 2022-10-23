@@ -1,43 +1,28 @@
-name: John Doe
+name: Dimitris Dimotsis
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: dimitrisdimotsis at gmail dot com
+  github: dimidimots
+  linkedin: dimitris-dimotsis
+  phone: 306912345678
+ 
 
 languages:
+  - idiom: Greek
   - idiom: English
-  - idiom: Russian
   - idiom: French
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: MSc in Quality Assurance
+    time: 
+    university: Hellenic Open University
 
   - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
-
-skills:
-  - category: Backend
-    skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+    time:  
+    university: Technological Educational Institute of Thessaloniki
 
 # Profile
 profile: |

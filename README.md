@@ -3,7 +3,7 @@
 Free theme for the creation of your CV. View demo [here](https://jekyll-cv.stavrospanakakis.com/).
 
 ## Features
-- Lightweight
+- Darkweight
 - Free & Open Source
 - Mobile Responsive
 - Dark Mode Support

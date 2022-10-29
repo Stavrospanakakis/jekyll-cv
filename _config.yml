@@ -2,7 +2,7 @@ title: CV | A jekyll template
 description:  A beautiful template for your CV.
 url: https://jekyll-cv.stavrospanakakis.com
 baseurl: ''
-theme_skin: blue
+theme_skin: red
 
 sass:
   sass_dir: _sass

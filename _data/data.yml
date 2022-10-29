@@ -1,20 +1,20 @@
 name: Kiriaki Kar
 support_dark_mode: true
-fork: true
+fork: false
 
 # Sidebar
 contact:
   email: info@kiriakikar.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  github: kiriakikar
+  linkedin: kiriaki k
+  phone: 6941234567
   gitlab: 
-  twitter: 
+  twitter: kkaripid
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Greek
+  - idiom: German
 
 education:
   - degree: MSc in Informatics

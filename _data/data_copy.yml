@@ -1,25 +1,24 @@
-name: Kiriaki Karipidou
+name: John Doe
 support_dark_mode: true
-fork: false
+fork: true
 
 # Sidebar
 contact:
-  email: info@kiriakikar.com
-  github: kiriakikar
-  linkedin: kiriaki k
-  phone: 6941234567
+  email: info@johndoe.com
+  github: johndoe
+  linkedin: johndoe
+  phone: 
   gitlab: 
-  twitter: kkaripid
+  twitter: 
 
 languages:
   - idiom: English
-  - idiom: Greek
-  - idiom: German
-
+  - idiom: Russian
+  - idiom: French
 
 education:
   - degree: MSc in Informatics
-    time: 2005-2010
+    time: 2014-2016
     university: Ionian University
 
   - degree: BSc in Computer Science
@@ -47,6 +46,7 @@ profile: |
   quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
   fugiat nulla pariatur.
+
 # Experience
 experience:
   - role: Software Engineer
@@ -72,6 +72,7 @@ experience:
       fugiat nulla pariatur.
     technologies_used: | 
       Python, Tensorflow, Keras, Matlab
+
 publications:
   - title: Random title of paper. An interesting one.
     link: "#"
@@ -89,11 +90,13 @@ projects:
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua.
+
   - title: Cool Project 
     link: #
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua.
+
 # Volunteering
 volunteering:
   - time: 2020-Present
@@ -103,15 +106,3 @@ volunteering:
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-

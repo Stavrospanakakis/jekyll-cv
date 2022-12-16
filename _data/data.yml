@@ -1,4 +1,4 @@
-name: John Doe
+name: Brian Souza Rodrigues
 support_dark_mode: true
 fork: true
 
@@ -12,40 +12,38 @@ contact:
   twitter: 
 
 languages:
+  - idiom: Português
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: 日本語
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: Licenciatura Letras Japonês Português
+    time: 2020 - Atual
+    university: Universidade Federal Do Paraná
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: Ensino Médio Completo
+    time: 2018
+    university: Colégio Poligenes
 
 skills:
-  - category: Backend
+  - category: Legendas
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
+      - Aegisub
+      - Subtitle Edit
+  - category: Office
     skill:
-      - React
-      - Typescript
-  - category: DevOps
+      - Microsoft Office
+      - Libre Office
+  - category: Linguagens
     skill:
-      - Docker
-      - Kubernetes 
+      - Inglês Avançado C1
+      - Japonês Intermediário JLPT N3
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  Busco desenvolver uma carreira profissional como tradutor de língua japonesa para língua portuguesa.
+  Tenho experiências profissionais com o uso do pacote office e trabalhos de forma remota que me ensinaram
+  a moldar minhas experiências profissionais
 
 # Experience
 experience:

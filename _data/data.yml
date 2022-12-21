@@ -4,12 +4,12 @@ fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: briansouza2901@mail.com
+  github: snyteirl
+  linkedin: snyteirl
+  phone: +55 (16) 996412631
   gitlab: 
-  twitter: 
+  twitter: snyteirl
 
 languages:
   - idiom: Português
@@ -38,39 +38,40 @@ skills:
     skill:
       - Inglês Avançado C1
       - Japonês Intermediário JLPT N3
+  - category: Habilidades
+    skill:
+      - Tradução
+      - Revisão Textual
 
 # Profile
 profile: |
-  Busco desenvolver uma carreira profissional como tradutor de língua japonesa para língua portuguesa.
-  Tenho experiências profissionais com o uso do pacote office e trabalhos de forma remota que me ensinaram
-  a moldar minhas experiências profissionais
+  Busco oportunidades na área de tradução e revisão textual. Tenho experiência com manipulação e criação e manipulação de legendas
+  com a ferramenta Aegisub como também conhecimento dos formatos ".srt" e ".ass". Também realizei revisões de textos literários em
+  ambiente acadêmico e em projetos pessoais amadores. Possuo um amplo conhecimento na Língua Inglesa e conhecimento Intermediário
+  de Língua Japonesa. Possuo experiêncai de trabalho Home Office e Presencial, sendo capaz de trabalhar com prazos e metas sem
+  a necessidade de constante supervisão.
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: Jovem Aprendiz
+    time: 2022-Presente
+    company: Estre Ambiental
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Na função de Jovem Aprendiz realizada alimentação de dados em planilhas do Excel com a listagem de presença e controle de colaboradores
+      como também o tempo de uso e equipamento utilizado para a realização das atividades da empresa. Também realizava contato com outros setores
+      para que fossem relatados os andamentos das atividades realizadas de forma diária, semanal e mensal.
     technologies_used: | 
-      Go, Angular, Typescript, C++
+      Google Workspace, Microsoft Office
   
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
+  - role: Auditor
+    time: 2020-2021
+    company: Reino Contabilidade
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      Na função de auditor, o trabalho era realizado de forma remota. As tarefas realizadas envolviam o uso da plataforma da Petrobrás para
+      análise de documentação de contratos para que fosse verificada a lisura do processo de prestação de serviços terceirizados para a estatal.
+      Era também realizado o envio de relatório da quantidade de documentação analisada como também o número dos contratos para futura inspeção.
     technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
-
+      Microsoft Office
 publications:
   - title: Random title of paper. An interesting one.
     link: "#"
@@ -83,17 +84,17 @@ publications:
     conference: Some conference again, 2018
 
 projects:
-  - title: Cool Project 
-    link: #
+  - title: Tradução de Anime (Boku to Roboco)
+    link: https://vimeo.com/showcase/10068956
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Legendas do anime Boku to Roboco feitas utilizando como base as Closed Captions fornecidas pelo canal
+      TV Tokyo. Legendas feitas utilizando o Aegisub e inseridas ao vídeo utilizando o Handbreak.
 
-  - title: Cool Project 
+  - title: Tradução de Músicas
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      Legendas de músicas Vocaloid feitas com base nas letras que são exibidas nos clipes. Tradução
+      realizada com a intenção de manter as músicas com a possíbilidade de se cantar no idioma alvo.
 
 # Volunteering
 volunteering:

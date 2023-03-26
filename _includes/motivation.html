@@ -1,0 +1,77 @@
+{% assign motivation = site.data.data.motivation %}
+<div class="pagebreak"></div>
+<section class="career-profile">
+    <h2 class="title">Motivational Statement</h2>
+    <p>
+        {% if motivation.contact %}
+        Dear {{ motivation.contact }}
+        {% else %}
+        Dear Madam or Sir,
+        {% endif %}
+        <br>
+        {% if motivation.consulting %}
+        As an {{ motivation.title }} at {{ motivation.firm_name }}, I'm confident that my Master's degree in Computer Science from the Technical University of Munich,
+        as well as my extensive experience as a working student in consulting and software engineering, will allow both
+        you and your customers to benefit from my skills.
+        {% endif %}
+        {% if motivation.developer %}
+        As an experienced Python developer and graduate of the Technische Universität München, I am confident that my skills and expertise as an {{ motivation.title }} would be a valuable asset to {{ motivation.firm_name }}.
+        With my ability to develop innovative solutions and my commitment to delivering exceptional results, I am well-equipped to take on the challenges of your projects and exceed your expectations.
+        {% endif %}
+        <br><br>
+        With a master's degree in Computer Science
+        {% if motivation.consulting %}
+        focused on AI theory
+        {% endif %}
+        along with a minor in business administration,
+        I possess strong mathematical skills and a basic understanding of business,
+        allowing me to connect technical expertise in
+        {% if motivation.consulting %}
+        data engineering
+        {% endif %}
+        {% if motivation.developer %}
+        software engineering
+        {% endif %}
+        to a comprehensive business context and finally to project success.
+        <br><br>
+        My deep academic knowledge is complemented by very extensive hands-on experience. As a working student, I gained
+        excellent knowledge of Python over several years, specifically in Backend Development and Data Science. I am always actively involved in DevOps pushing the implementation of automated
+        documentation, hixgh test coverage, and clean code principles.
+        {% if motivation.consulting %}
+        As a consultant at Ernst & Young and Aitaro, I
+        learned customer-oriented project organization, dealing with complex requirements, and superb communication with
+        clients.
+        {% endif %}
+        {% if motivation.developer %}
+        As a developer, I prioritize soft skills such as communication and collaboration.
+        I believe in open communication and attention to detail, which enables the team and me to deliver high-quality solutions that exceed project requirements and foster a positive work environment.
+        {% endif %}
+        <br><br>
+        My personality I would describe as being ambitious and extremely goal-oriented with an entrepreneurial drive to prototype and refine solutions.
+        With my creative moonshot-thinking, I'm always striving for stretch goals. My ability to concisely communicate complex issues for everyone to understand has been confirmed by peers multiple times.
+        Analytical thinking and involving data is my approach to problem-solving.
+        Taking initiative and being self-directed are defining characteristics that I am known for.
+        {% if motivation.consulting %}
+        I'm driven to join a consulting firm for the challenge and fast-paced environment that will refine my skills and offer exposure to a variety of industries and clients.
+        {% endif %}
+        {% if motivation.developer %}
+        Becoming a programmer ignites my passion for collaborating with peers, refining skills, and shaping the technical direction of each project to exceed stakeholder expectations.
+        {% endif %}
+        Applying for {{ motivation.firm_name }} is a conscious decision as your requirements are a perfect match for my knowledge and expertise, while your mission and values align impeccably with my personal goals.
+        I am confident that your company provides the ideal environment for me to excel and grow my career, and I am eager to contribute my best to achieve mutual success.
+        <br><br>
+        Overall, my profile is already a good fit for the requirements you seek and is the best step for me to further
+        sharpen my technical skills. Already with my current competencies, I consider myself being able to contribute to
+        your projects from day one.
+        I would be delighted to demonstrate how I can effectively apply my knowledge to your
+        company in a personal meeting.
+        <br>
+        Best regards,
+        <br>
+        <br>
+        xx<br>
+
+
+
+    </p>
+</section>

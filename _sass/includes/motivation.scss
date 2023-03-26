@@ -1,0 +1,7 @@
+.motivation {
+  p{
+    text-decoration: none;
+    @include body-text;
+    line-height: 2;
+  }
+}

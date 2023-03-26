@@ -1,0 +1,23 @@
+{% assign keyskills = site.data.data.keyskills %}
+<section class="projects">
+    <h2 class="title">Key Skills</h2>
+
+  <table style="width: 100%">
+    <tr>
+      {% for skill in keyskills %}
+      <td style="text-align:center;">
+        <span class="key-skill">{{skill.skill}}</span>
+        <span class="key-skill-level">{{skill.level}}</span>
+      </td>
+        {% endfor %}
+    </tr>
+  </table>
+
+    <h2 class="title">Profile</h2>
+  <p>
+  Graduating in Computer Science M.Sc. from the Technical University of Munich in September, I also gained extensive experience as a working student in consulting and software engineering.
+  With strong skills in mathmatics and AI theory, I am proficient in connecting technical expertise in data engineering to a comprehensive business context.
+  I possess an unwavering ambition, collaborative spirit, and an entrepreneurial drive to build innovative solutions.
+  Joining a consulting firm is an exciting opportunity for me to refine my skills and achieve mutual success.
+  </p>
+</section>

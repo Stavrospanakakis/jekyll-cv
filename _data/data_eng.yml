@@ -12,13 +12,13 @@ motivation:
   developer: False
   title: "Data Engineering Intern"
   eng: False
-  # contact: "Recruiter Name"
+  # contact: "Ms. Löffler"
 
 # Sidebar
 contact:
   email: elias.berger@web.de
   # github: TheEliasBe
-  address: "Nadistraße 14, 80809 München"
+  address: "Nadistraße 14, 80809 Munich"
   linkedin: bergerelias
   phone: +49 1626 926676
   gitlab: 
@@ -34,26 +34,27 @@ languages:
 
 
 education:
-  - degree: M.Sc. Informatik
-    time: Okt 2020 - Sep 2023
-    university: Technische Universität München
+  - degree: M.Sc. in Computer Science
+    time: Oct 2020 - Sep 2023
+    university: Technical University Munich
     details:
-      - "Thesis: Anwendung von GPT-3 im Kontext der Klassifizierung von IT-Supporttickets, mit Vorverarbeitung, Fine-Tuning und Deployment"
-      - "Maschinelles Lernen: Regression, Random Forests, Bayes'sche Modellierung, Clustering, RNN, LSTM, PyTorch"
-      - "Natural Language Processing: LSTM, Transformer, BERT, Information Retrieval"
-      - "Data-Mining-Laborkurs: Python, Pandas, Dask, Plotly, Matplotlib"
+    - "Thesis: Apply GPT-4 in the context of IT support ticket classification including data pre-processing, data augmentation, model fine-tuning and deployment in production."
+    - "Machine Learning: Regression, Random Forests, Bayesian Modeling, Neural Networks, Clustering, PyTorch"
+    - "Machine Learning for Graph and Sequential Data: CNN, RNN, LSTM, Transformers, PyTorch"
+    - "Natural Language Processing: LSTM, Transformer, BERT, Information Retrieval"
+    - "Data Mining Lab Course: Python, Pandas, Plotly, Matplotlib"
     # - "Security Engineering: Intrusion Detection, Common Vulnerabilities, Secure Software Engineering"
     #- "Efficient Algorithms: Red-Black Trees, Hashing, Flows, Cuts, Matchings"
 
-  - degree: B.Sc. Informatik
-    time: Okt 2016 - Sep 2020
-    university: Technische Universität München
+  - degree: B.Sc. in Computer Science
+    time: Oct 2016 - Sep 2020
+    university: Technical University Munich
     details:
-      - "Thesis: Entwicklung eines Software-Prototyps zur Modellierung und Simulation eines dynamischen Geschäftsmodells mit Python und TypeScript"
-      - "Datenbanken: SQL, Datenmodellierung, Normalformen, Big Data"
-      - "Software Engineering: Java, UML-Modellierung, Requirements Engineering, Scrum"
+      - "Thesis: Development of a software prototype for modeling and simulating a dynamic business model using Python and TypeScript"
+      - "Databases: SQL, data modeling, normal forms, big data"
+      - "Software Engineering: Java, UML modeling, requirements engineering, Scrum"
       # - "Functional programming: OCAML, Higher Order Functions, Currying"
-      # - "IT Security: Encryption, Secret Exchange, Access Modelling"
+      # - "IT Security: Encryption, Secret Exchange, Access Modeling"
       # - "Probability Theory: Stochastic basics, Probabilistic modeling"
 keyskills:
   - skill: Python
@@ -64,7 +65,7 @@ keyskills:
     level: ●●●
   - skill: Git
     level: ●●●
-  - skill: MLOps
+  - skill: PostgreSQL
     level: ●●○
   - skill: Apache Spark
     level: ●○○
@@ -110,57 +111,60 @@ skills:
 
 # Experience
 experience:
-  - role: Software Engineer - Werkstudent
-    time: Jan 2022-Heute
+  - role: Software Engineer - Working Student
+    time: Jan 2022-Present
     company: Kertos
     url: "https://www.kertos.io"
     details:
-      - Einführung von Schlüsselfunktionen wie die automatische Erfassung von Aufzeichnungen über Verarbeitungstätigkeiten (RoPA), was zu einem besonderen Interesse von zwei neuen Kunden führte
-      - Implementierung der API für Kunden zum Import von Daten in das Produkt, welche vier- bis fünftausend Anfragen pro Monat bearbeitet
-      - Initiierung von kollaborativen Wissensaustausch-Sitzungen, was zu einem stärkeren Zusammenhalt des Teams führte, wie 8,9 Punkte in der Zufriedenheitsumfrage im Vergleich zum Durchschnitt von 8,2 beweisen
+      - Pioneered key features for the company’s product like automatic collection of records of processing activities (RoPA) leading to specific interest of two new customers
+      # - Demonstrated exceptional skills in specification, design, and implementation of these features, a testament to my initiative and dependability
+      - Implemented the API for customers to import data into the product, serving four to five thousand requests per month
+      - Initiated collaborative knowledge sharing sessions, resulting in a more cohesive team as proved by 8.9 points in the satisfaction survey compared to 8.2 average
     technologies_used:
       - Python
       - Django
       - TypeScript
       - GraphQL
+      - REST
       - PostgreSQL
       - Docker
       - Git
   
-  - role: Data Engineering - Praktikant
+  - role: Data Engineering - Internship
     time: Aug 2021-Jan 2022
     company: Aitaro
     url: "https://www.aitaro.de"
     details:
-      - Verringerung der Verarbeitungszeit um ca. 32 Stunden pro Monat für einen Kunden durch die Implementierung einer Pipeline zur Datenextraktion und -umwandlung
-      - Implementierung eines Tools zur Sentimentanalyse für das Shopify-Plug-in eines Kunden, das eine Genauigkeit von 87 % für das Test-Set erreichte
-      # - Demonstration bemerkenswerter Kompetenz bei der Ausführung offener Aufgaben unter minimaler Aufsicht und hervorragender Kommunikation mit dem Kunden
+      - Decreased processing time by approximately 32 hours per month for a client by implementing a data extraction and transformation pipeline
+      # - Propelled a data-intensive customer project that involved requirements engineering, feature prioritization, and execution, resulting in a successful delivery on time
+      - Implemented a pricing sentiment analysis tool for a client's Shopify plug-in, achieving 87% accuracy on the test set
+      - Demonstrated a remarkable competency to accomplish open-ended tasks with minimal supervision and excelled in communication with the client
     technologies_used:
       - Python
       - Kedro
-      - OpenPyXL
+      - Pandas
       - BERT
       - MLflow
       - Git
 
-  - role: Data Analytics - Werkstudent
+  - role: Data Analytics - Working Student
     time: Jan 2021 - Aug 2021
-    company: Telefonica
+    company: Telefonica Germany
     url: "https://www.telefonica.de"
     details: |
-      Entwicklung eines internen Analysetools zur Messung der Auswirkung spezifischer Werbeaktionen auf den NPS mit Fokus auf geschäftlichen Auswirkungen und erklärbarer KI, damit die Marketingabteilung datengestützte Entscheidungen treffen kann
+      Developed an internal analytics tool for measuring the effect of specific promotion events on NPS with a focus on business impact and explainable AI, enabling the marketing department to make data-driven decisions
     technologies_used:
       - Python
       - DataIKU
+      - Tableau
       - Pandas
-      - Bayesian Modeling
-  - role: IT Security Consultancy - Werkstudent
-    time: Aug 2017 - Okt 2020
+  - role: IT Security Consultancy - Working Student
+    time: Aug 2017 - Oct 2020
     company: Ernst & Young
     url: "https://www.ey.com/en_gl/innovation-financial-services/cybersecurity"
     details:
-      - Durchführung jährlicher Audits mit Schwerpunkt auf der technischen Umsetzung gesetzlicher IT-Sicherheitsanforderungen und Beratungsprojekten im Bereich IT-Risiko und Cybersicherheit
-      - Entwicklung interner Tools für Penetrationstests und Automatisierung manueller Prozesse, was zu weniger regulatorischen Risiken und effizienteren Prüfungen führte
+      - Conducted annual audits with focus on technical implementation of regulatory IT security requirements and consulting projects in the area of IT risk and cyber security
+      - Created internal penetration testing tools and automation of manual processes leading to less regulatory risk and more efficient audits
     technologies_used:
       - Burp Suite
       - WireShark

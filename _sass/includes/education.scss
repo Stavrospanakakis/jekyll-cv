@@ -1,18 +1,23 @@
 .education {
-    margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include header;
     }
     .education-item {
         margin-bottom: 20px;
         .degree {
-            @include body-text;
-            font-weight: bold;
+            @include sub-header;
         }
         .university {
             @include body-text;
+            font-weight: bold;
         }
         .time {
+            @include body-text;
+            float: right;
+                color: var(--fg-color-title-sm);
+                font-weight: normal;
+        }
+        .details {
             @include body-text;
         }
     }

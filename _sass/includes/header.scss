@@ -19,4 +19,92 @@
         color: var(--fg-color-dark);
         
     }
+    .contact-item {
+        display: flex;
+        align-items: center;
+        float: left;
+        margin-right: 10px;
+        svg {
+            width: 18px;
+            display: inline-block;
+            color: var(--fg-color);
+        }
+        a {
+            text-decoration: none;
+            padding-top: 4px;
+            padding-left: 4px;
+            @include body-text;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.footer {
+    width: 100%;
+    hr{
+        border-width: 0;
+        border-bottom: 1px solid;
+        border-color: var(--fg-color);
+    }
+    .item{
+        float: left;
+       width: 33.33%;
+        span{
+            @include body-text;
+        }
+    }
+    margin: 0 auto;
+    .title {
+        color: var(--fg-color);
+        font-weight: bolder;
+    }
+    label {
+        cursor: pointer;
+        color: var(--fg-color-dark);
+
+    }
+    .volunteering-item {
+        .role {
+            @include body-text;
+            font-weight: bold;
+            color: var(--fg-color)
+        }
+        .organization {
+            @include body-text;
+            font-weight: bold;
+            .time {
+                @include body-text;
+                font-weight: normal;
+            }
+        }
+        .details {
+            margin-right: 20px;
+            @include body-text;
+        }
+    }
+    .abroad-item {
+        margin-bottom: 5px;
+        .role {
+            @include body-text;
+            font-weight: bold;
+            color: var(--fg-color);
+            text-align: right;
+        }
+        .organization {
+            @include body-text;
+            font-weight: bold;
+            text-align: right;
+            .time {
+                @include body-text;
+                font-weight: normal;
+                text-align: right;
+            }
+        }
+        .details {
+            @include body-text;
+            text-align: right;
+        }
+    }
 }

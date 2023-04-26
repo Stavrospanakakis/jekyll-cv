@@ -1,7 +1,35 @@
+{% assign contact = site.data.data.contact %}
 <div class="header">
-    <h1 class="title">{{site.data.data.name}}</h1>
-    {% if site.data.data.support_dark_mode%}
-      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
-    {%endif%}
+    <div>
+        <h1 class="title">{{site.data.data.name}}</h1>
+        <div class="contact-item">
+            <i data-feather="map-pin"></i>
+            <a>
+                {{contact.address}}
+            </a>
+        </div>
+        <div class="contact-item">
+            <i data-feather="mail"></i>
+            <a href="mailto:elias.berger@web.de">
+                {{contact.email}}
+            </a>
+        </div>
+        <div class="contact-item">
+            <i data-feather="phone"></i>
+            <a href="#">
+                {{contact.phone}}
+            </a>
+        </div>
+        <div class="contact-item">
+            <i data-feather="linkedin"></i>
+            <a href="https://linkedin.com/in/{{contact.linkedin}}">
+                LinkedIn<i data-feather="external-link" style="height: 10px"></i>
+            </a>
+        </div>
+    </div>
+
+
+
+    <img src="https://raw.githubusercontent.com/TheEliasBe/theeliasbe.github.io/main/_includes/Me-removebg-suit.png" alt="portrait" width="110" style="border-width: 0px; border-color: #1b262c; border-style: solid">
+
   </div>

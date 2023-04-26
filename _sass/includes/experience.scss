@@ -3,6 +3,7 @@
         @include header;
     }
     .experience-item {
+        margin-bottom: 20px;
         .role {
             @include sub-header;
         }
@@ -12,7 +13,7 @@
             .time {
                 float: right;
                 color: var(--fg-color-title-sm);
-                font-weight: 100;
+                font-weight: normal;
             }
         }
         .details {

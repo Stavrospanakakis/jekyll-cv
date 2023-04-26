@@ -2,6 +2,14 @@
 {% if contact %}
 <section class="contact">
     <div class="title">Contact</div>
+    {% if contact.address %}
+        <div class="contact-item">
+            <i data-feather="map-pin"></i>
+            <a href="#">
+                {{contact.address}}
+            </a>
+        </div>
+    {% endif %}
     {% if contact.email %}
         <div class="contact-item">
             <i data-feather="mail"></i>
@@ -24,7 +32,7 @@
         <div class="contact-item">
             <i data-feather="github"></i>
             <a href="https://github.com/{{contact.github}}">
-                {{contact.github}}
+                {{contact.github}}<i data-feather="external-link" style="height: 10px"></i>
             </a>
         </div>
     {% endif %}
@@ -33,7 +41,7 @@
         <div class="contact-item">
             <i data-feather="linkedin"></i>
             <a href="https://linkedin.com/in/{{contact.linkedin}}">
-                {{contact.linkedin}}
+                {{contact.linkedin}}<i data-feather="external-link" style="height: 10px"></i>
             </a>
         </div>
     {% endif %}
@@ -55,5 +63,12 @@
             </a>
         </div>
     {% endif %}
+
+        <!--<div class="contact-item">
+            <i data-feather="globe"></i>
+            <a href="https://www.theeliasbe.github.io">
+                eberger.dev<i data-feather="external-link" style="height: 10px"></i>
+            </a>
+        </div>-->
 </section>
 {% endif %}

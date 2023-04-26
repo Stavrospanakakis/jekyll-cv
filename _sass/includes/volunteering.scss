@@ -1,22 +1,25 @@
 .volunteering {
+    margin-bottom: 20px;
     .title {
-        @include header;
+        @include sub-header;
     }
     .volunteering-item {
-        margin-bottom: 20px;
         .role {
-            @include sub-header;
+            @include body-text;
+            font-weight: bold;
+            color: var(--fg-color)
         }
         .organization {
             @include body-text;
             font-weight: bold;
+            text-align: left;
             .time {
-                float: right;
-                color: var(--fg-color-title-sm);
-                font-weight: 100;
+                @include body-text;
+                font-weight: normal;
             }
         }
         .details {
+            margin-right: 20px;
             @include body-text;
         }
     }

@@ -5,4 +5,10 @@
     .details {
         @include body-text;
     }
+    p{
+        text-decoration: none;
+        @include body-text;
+        line-height: 2;
+        font-size: 14px;
+  }
 }

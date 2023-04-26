@@ -1,20 +1,35 @@
 {% assign experience = site.data.data.experience %}
+{% assign motivation = site.data.data.motivation %}
 {% if experience %}
 <section class="experiance">
+    {% if motivation.eng %}
     <h2 class="title">Experience</h2>
+    {% else %}
+    <h2 class="title">Berufserfahrung</h2>
+    {% endif %}
     {% for exp in experience %}
         <div class="experience-item">
             <div class="role">
                 {{exp.role}}
             </div>
             <div class="company">
-                {{exp.company}} 
+                <a href={{exp.url}}>{{exp.company}}<i data-feather="external-link" style="height: 11px"></i></a>
                 <span class="time">{{exp.time}}</span>
             </div> 
-            <div class="details">{{exp.details}}</div>
-            <p class="technologies">Technologies Used: {{exp.technologies_used}}</p>
+            <div class="details">
+                <ul>
+                    {% for detail in exp.details%}
+                        <li>{{detail}}</li>
+                    {% endfor %}
+                </ul>
+
+
+            </div>
+
+            {% for tech in exp.technologies_used %}
+                <span class="badge">{{tech}}</span>
+            {% endfor %}
         </div>
-       
     {% endfor %}
 </section>
 {% endif %}

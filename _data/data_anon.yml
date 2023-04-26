@@ -1,26 +1,22 @@
-name: Elias Berger
+name: First Last
 support_dark_mode: false
 fork: false
 
 motivation:
-  firm_name: "McKinsey"
-  firm_long_name: "McKinsey & Company, Inc."
-  firm_street: "Kennedydamm 24"
-  firm_city: "40027 Düsseldorf"
-  name: "Elias Berger"
+  firm_name: "Company"
+  name: "First Last"
   consulting: True
   developer: False
-  title: "Data Engineering Intern"
-  eng: False
-  # contact: "Recruiter Name"
+  title: "Job Title"
+  contact: "Recruiter Name"
 
 # Sidebar
 contact:
-  email: elias.berger@web.de
+  email: mail@example.com
   # github: TheEliasBe
-  address: "Nadistraße 14, 80809 München"
-  linkedin: bergerelias
-  phone: +49 1626 926676
+  address: "Street 42, City"
+  linkedin: linkedin
+  phone: +49 1626 123456
   gitlab: 
   twitter: 
 
@@ -34,44 +30,30 @@ languages:
 
 
 education:
-  - degree: M.Sc. Informatik
-    time: Okt 2020 - Sep 2023
-    university: Technische Universität München
-    details:
-      - "Thesis: Anwendung von GPT-3 im Kontext der Klassifizierung von IT-Supporttickets, mit Vorverarbeitung, Fine-Tuning und Deployment"
-      - "Maschinelles Lernen: Regression, Random Forests, Bayes'sche Modellierung, Clustering, RNN, LSTM, PyTorch"
-      - "Natural Language Processing: LSTM, Transformer, BERT, Information Retrieval"
-      - "Data-Mining-Laborkurs: Python, Pandas, Dask, Plotly, Matplotlib"
-    # - "Security Engineering: Intrusion Detection, Common Vulnerabilities, Secure Software Engineering"
-    #- "Efficient Algorithms: Red-Black Trees, Hashing, Flows, Cuts, Matchings"
+  - degree: M.Sc. in Computer Science
+    time: Oct 2020 - Sep 2023
+    university: Tier 1 University
+    description: Focus on machine learning, NLP and Python programming with PyTorch and graduating with a thesis on text classification using GPT-3
+    # description: Focus courses on machine learning, security engineering and efficient algorithms with a thesis on text classification using GPT-3
 
-  - degree: B.Sc. Informatik
-    time: Okt 2016 - Sep 2020
-    university: Technische Universität München
-    details:
-      - "Thesis: Entwicklung eines Software-Prototyps zur Modellierung und Simulation eines dynamischen Geschäftsmodells mit Python und TypeScript"
-      - "Datenbanken: SQL, Datenmodellierung, Normalformen, Big Data"
-      - "Software Engineering: Java, UML-Modellierung, Requirements Engineering, Scrum"
-      # - "Functional programming: OCAML, Higher Order Functions, Currying"
-      # - "IT Security: Encryption, Secret Exchange, Access Modelling"
-      # - "Probability Theory: Stochastic basics, Probabilistic modeling"
+  - degree: B.Sc. in Computer Science
+    time: Oct 2016 - Sep 2020
+    university: Tier 1 University
+    description: Fundamentals of computer science including databases, SQL, and Java programming with a thesis on business model simulation
+
 keyskills:
   - skill: Python
     level: ●●●
+  - skill: Pandas
+    level: ●●●
   - skill: SQL
-    level: ●●●
-  - skill: Kedro
-    level: ●●●
-  - skill: Git
-    level: ●●●
-  - skill: MLOps
     level: ●●○
-  - skill: Apache Spark
-    level: ●○○
-  - skill: R
+  - skill: Java
     level: ●○○
   - skill: AWS
     level: ●○○
+  - skill: Agile Development
+    level: ●●○
 
 
 
@@ -110,14 +92,14 @@ skills:
 
 # Experience
 experience:
-  - role: Software Engineer - Werkstudent
-    time: Jan 2022-Heute
-    company: Kertos
-    url: "https://www.kertos.io"
+  - role: Software Engineer - Working Student
+    time: Jan 2022-Present
+    company: Startup
+    url: "https://www.startup.com"
     details:
-      - Einführung von Schlüsselfunktionen wie die automatische Erfassung von Aufzeichnungen über Verarbeitungstätigkeiten (RoPA), was zu einem besonderen Interesse von zwei neuen Kunden führte
-      - Implementierung der API für Kunden zum Import von Daten in das Produkt, welche vier- bis fünftausend Anfragen pro Monat bearbeitet
-      - Initiierung von kollaborativen Wissensaustausch-Sitzungen, was zu einem stärkeren Zusammenhalt des Teams führte, wie 8,9 Punkte in der Zufriedenheitsumfrage im Vergleich zum Durchschnitt von 8,2 beweisen
+      - Pioneered key features for the company’s flagship product leading to improved selling proposition and growing ARR by 120k€
+      - Demonstrated exceptional skills in specification, design, and implementation of these features, a testament to my initiative and dependability
+      - Launched collaborative knowledge sharing sessions, resulting in a more cohesive and productive team as proved by 8.9 points in the satisfaction survey compared to 8.2 average
     technologies_used:
       - Python
       - Django
@@ -127,40 +109,39 @@ experience:
       - Docker
       - Git
   
-  - role: Data Engineering - Praktikant
+  - role: Data Engineering - Internship
     time: Aug 2021-Jan 2022
-    company: Aitaro
-    url: "https://www.aitaro.de"
+    company: Startup
+    url: "https://www.startup.com"
     details:
-      - Verringerung der Verarbeitungszeit um ca. 32 Stunden pro Monat für einen Kunden durch die Implementierung einer Pipeline zur Datenextraktion und -umwandlung
-      - Implementierung eines Tools zur Sentimentanalyse für das Shopify-Plug-in eines Kunden, das eine Genauigkeit von 87 % für das Test-Set erreichte
-      # - Demonstration bemerkenswerter Kompetenz bei der Ausführung offener Aufgaben unter minimaler Aufsicht und hervorragender Kommunikation mit dem Kunden
+      - Propelled a data-intensive customer project that involved requirements engineering, feature prioritization, and execution, resulting in a successful delivery on time
+      - Implemented efficient and effective data transformation pipelines, resulting in significant time savings for the client of approximately 32 hours per month and improving overall productivity
+      - Demonstrated a remarkable competency to accomplish open-ended tasks with minimal supervision
     technologies_used:
       - Python
       - Kedro
-      - OpenPyXL
-      - BERT
       - MLflow
       - Git
+      - Docker
 
-  - role: Data Analytics - Werkstudent
+  - role: Data Analytics - Working Student
     time: Jan 2021 - Aug 2021
-    company: Telefonica
-    url: "https://www.telefonica.de"
+    company: Telecommunications Company
+    url: "https://www.telecom.com"
     details: |
-      Entwicklung eines internen Analysetools zur Messung der Auswirkung spezifischer Werbeaktionen auf den NPS mit Fokus auf geschäftlichen Auswirkungen und erklärbarer KI, damit die Marketingabteilung datengestützte Entscheidungen treffen kann
+      Development of an internal analytics tool for the effect of specific promotion events on churn rate with a focus on business impact and explainable AI enabling the marketing department to make data-driven decisions
     technologies_used:
       - Python
       - DataIKU
-      - Pandas
-      - Bayesian Modeling
-  - role: IT Security Consultancy - Werkstudent
-    time: Aug 2017 - Okt 2020
-    company: Ernst & Young
-    url: "https://www.ey.com/en_gl/innovation-financial-services/cybersecurity"
+      - pgmpy
+  - role: IT Security Consultancy - Working Student
+    time: Aug 2017 - Oct 2020
+    company: Tier 2 Consulting Firm
+    url: "https://www.consulting.com"
     details:
-      - Durchführung jährlicher Audits mit Schwerpunkt auf der technischen Umsetzung gesetzlicher IT-Sicherheitsanforderungen und Beratungsprojekten im Bereich IT-Risiko und Cybersicherheit
-      - Entwicklung interner Tools für Penetrationstests und Automatisierung manueller Prozesse, was zu weniger regulatorischen Risiken und effizienteren Prüfungen führte
+      - Support in annual audits with focus on technical implementation of regulatory IT security requirements and consulting projects in the area of IT risk and cyber security
+      - Development of internal penetration testing tools and automation of manual processes leading to less regulatory risk and more efficient audits
+      - Mastered thoroughness, effective communication, and time management
     technologies_used:
       - Burp Suite
       - WireShark
@@ -217,7 +198,7 @@ projects:
 
   - title: Ladewunsch.de
     details: |
-      University project in cooperation with the City of Munich and UnternehmerTUM in a team of three students following strict Scrumban methodology. Enables citizen participation and data analysis for the planning of EV charging infrastructure and was presented to key decision makers at IAA 2022.
+      University project in cooperation with the XXX andXX in a team of three students following strict Scrumban methodology. Enables citizen participation and data analysis for the planning of EV charging infrastructure and was presented to key decision makers at IAA 2022.
     technologies_used:
       - Python
       - Pandas

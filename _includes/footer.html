@@ -1,0 +1,51 @@
+{% assign contact = site.data.data.contact %}
+{% assign languages = site.data.data.languages %}
+{% assign volunteering = site.data.data.volunteering %}
+<div class="footer">
+    <hr>
+    <div class="item">
+        <div class="title">Volunteering</div>
+        {% for vol in volunteering %}
+        <div class="volunteering-item">
+            <div class="role">
+                {{vol.role}}
+            </div>
+            <div class="organization">
+                {{vol.company}}
+                <div class="time">{{vol.time}}</div>
+            </div>
+            <div class="details"><i>{{vol.details}}</i></div>
+        </div>
+
+        {% endfor %}
+    </div>
+    <div class="item" style="text-align: center">
+        <div class="title" style="text-align: center">Languages</div>
+        {% for lang in languages %}
+        <span>{{lang.idiom}}<i> {{lang.level}}</i></span><br>
+        {% endfor %}
+
+    </div>
+    <div class="item" style="text-align: right !important;">
+        <div class="title" style="text-align: right !important;">Experience Abroad</div>
+        <div class="abroad-item" style="text-align: right">
+            <div class="role">
+                New Delhi, India
+            </div>
+            <div class="organization">
+                <div class="time">Aug 2018 - Jan 2019</div>
+            </div>
+            <div class="details"><i>Semester Abroad</i></div>
+        </div>
+
+    <div class="abroad-item" style="text-align: right">
+        <div class="role">
+            Shanghai, China
+        </div>
+        <div class="organization">
+            <div class="time">2008 - 2010</div>
+        </div>
+        <div class="details"><i>Due to parent's occupation</i></div>
+    </div>
+    </div>
+</div>

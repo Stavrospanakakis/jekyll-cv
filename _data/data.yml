@@ -1,29 +1,29 @@
-name: John Doe
+name: Saulo Vinicius
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
+  email: saulovinicius2907@gmail.com
+  github: Saulo Viniciusss
+  linkedin:
   phone: 
   gitlab: 
   twitter: 
 
 languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Português(Brasil)
+  - idiom: 
+  - idiom: 
 
-education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+education: cursando segundo grau
+  - degree: 
+    time: 2023-2026
+    university: Instituto Federal do Rio Grande do Norte
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: 
+    time: 
+    university: 
 
 skills:
   - category: Backend

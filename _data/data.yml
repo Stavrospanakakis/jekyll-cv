@@ -1,10 +1,10 @@
-name: John Doe
+name: Jhonatan Davi Bezerra Paiva
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
+  email: davipaiva759@gmail.com
   github: johndoe
   linkedin: johndoe
   phone: 
@@ -12,14 +12,14 @@ contact:
   twitter: 
 
 languages:
-  - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Português (Brasil)
+  - idiom: Português (Brasil)
+  - idiom: Português (Brasil)
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: Cursando o segundo grau
+    time: 2023-2027
+    university: Instituto Federal do Rio Grande do Norte
 
   - degree: BSc in Computer Science
     time: 2010-2014

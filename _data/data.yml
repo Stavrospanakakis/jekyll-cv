@@ -6,7 +6,7 @@ fork: true
 contact:
   email: saulovinicius2907@gmail.com
   github: Saulo Viniciusss
-  linkedin:
+  linkedin: johndoe
   phone: 
   gitlab: 
   twitter: 
@@ -16,8 +16,8 @@ languages:
   - idiom: 
   - idiom: 
 
-education: cursando segundo grau
-  - degree: 
+education:
+  - degree: cursando segundo grau
     time: 2023-2026
     university: Instituto Federal do Rio Grande do Norte
 

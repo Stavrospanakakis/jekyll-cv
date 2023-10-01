@@ -1,20 +1,18 @@
-name: John Doe
+name: Ahmed AbdelAal
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
-  gitlab: 
-  twitter: 
+  email: ahmed.abdelaal1921@gmail.com
+  github: ahmedabdel3al
+  linkedin: 3bdel3al
+  phone: 020101690717
+  twitter: ahmedabdel3aaal
 
 languages:
   - idiom: English
-  - idiom: Russian
-  - idiom: French
+  - idiom: Arabic
 
 education:
   - degree: MSc in Informatics
@@ -27,7 +25,7 @@ education:
 
 skills:
   - category: Backend
-    skill: 
+    skill:
       - Go
       - Rust
   - category: Frontend
@@ -37,7 +35,7 @@ skills:
   - category: DevOps
     skill:
       - Docker
-      - Kubernetes 
+      - Kubernetes
 
 # Profile
 profile: |
@@ -58,9 +56,9 @@ experience:
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       fugiat nulla pariatur.
-    technologies_used: | 
+    technologies_used: |
       Go, Angular, Typescript, C++
-  
+
   - role: Researcher
     time: 2016-2020
     company: Microsoft
@@ -70,7 +68,7 @@ experience:
       quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
       fugiat nulla pariatur.
-    technologies_used: | 
+    technologies_used: |
       Python, Tensorflow, Keras, Matlab
 
 publications:
@@ -85,24 +83,15 @@ publications:
     conference: Some conference again, 2018
 
 projects:
-  - title: Cool Project 
+  - title: Cool Project
     link: #
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua.
 
-  - title: Cool Project 
+  - title: Cool Project
     link: #
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua.
 
-# Volunteering
-volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 

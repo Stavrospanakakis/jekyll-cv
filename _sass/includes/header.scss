@@ -1,5 +1,5 @@
 .header {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -50,15 +50,20 @@
     }
     .item{
         float: left;
-       width: 33.33%;
+       width: 50%;
         span{
             @include body-text;
         }
     }
     margin: 0 auto;
     .title {
+        @include body-text;
         color: var(--fg-color);
         font-weight: bolder;
+    }
+    .enumerate{
+        @include body-text;
+        color: var(--fg-color-body);
     }
     label {
         cursor: pointer;

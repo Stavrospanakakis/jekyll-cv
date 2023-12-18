@@ -3,7 +3,7 @@
 {% if experience %}
 <section class="experiance">
     {% if motivation.eng %}
-    <h2 class="title">Experience</h2>
+    <h2 class="title">Professional Experience</h2>
     {% else %}
     <h2 class="title">Berufserfahrung</h2>
     {% endif %}
@@ -13,7 +13,7 @@
                 {{exp.role}}
             </div>
             <div class="company">
-                <a href={{exp.url}}>{{exp.company}}<i data-feather="external-link" style="height: 11px"></i></a>
+                {{exp.company}} - <i> {{exp.location}}</i>
                 <span class="time">{{exp.time}}</span>
             </div> 
             <div class="details">

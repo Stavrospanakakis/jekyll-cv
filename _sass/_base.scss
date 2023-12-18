@@ -10,17 +10,16 @@ body {
 
 .container {
     min-height: 900px;
-    max-width: 1200px;
+    // max-width: 1200px;
     margin: 0 auto;
     background-color: var(--bg-color-cv);
     box-shadow: 0px 2px 4px rgba(0,0,0,0.2);
-    padding:20px;
-    margin-top:25px;
-    margin-bottom: 25px;
+    //padding:20px;
+    //margin-top:25px;
+    //margin-bottom: 25px;
     .container-block {
-        width: 90%;
+        width: 95%;
         margin: 0 auto;
-        padding:20px;
         display: grid;
         // grid-template-columns: 2fr 5fr;
         .sidebar {
@@ -65,7 +64,7 @@ a{
 }
 
 @media print {
-    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+    .pagebreak { page-break-after: always; } /* page-break-after works, as well */
 }
 
 

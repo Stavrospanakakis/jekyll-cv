@@ -3,16 +3,16 @@ support_dark_mode: false
 fork: false
 
 motivation:
-  firm_name: "HEADSQUARE"
-  firm_long_name: "HEADSQUARE GmbH"
-  firm_street: "Moosacher Str. 70"
-  firm_city: "80809 München "
+  firm_name: "Accenture"
+  firm_long_name: "Accenture Dienstleistungen GmbH"
+  firm_street: "Campus Kronberg 1"
+  firm_city: "61476 Kronberg im Taunus"
   name: "Elias Berger"
   consulting: True
   developer: False
-  title: "Junior Consultant"
-  eng: True
-  contact: "Mrs. Wyrwa"
+  title: "Consultant"
+  eng: False
+  # contact: "Frau Schlich"
 
 # Sidebar
 contact:
@@ -26,49 +26,39 @@ contact:
 
 languages:
   - idiom: German
-    level: Native (C2),
+    level: native
   - idiom: English
-    level: Fluent (C1),
+    level: fluent
   - idiom: Italian
-    level: Basic (A1)
+    level: basic
 
 
 education:
   - degree: M.Sc. Informatik
-    time: Oct 2020 - Sep 2023
+    time: Okt 2020 - Sep 2023
     university: Technische Universität München
-    location: Munich, Germany
     grade: 1.7
     details:
-      - "Master-Thesis: Efficacy investigation of GPT-3 for support ticket classification including preprocessing, model fine-tuning and deployment in production"
-      - "Focus on Machine Learning and Natural Language Processing with additional subjects in Economics and Entrepreneurship"
-  - degree: B.Sc. Computer Science and Engineering
-    time: Aug 2018 - Jan 2019
-    university: Indian Institute of Technology
-    location: Delhi, India
+      - "Thesis: Anwendung von GPT-3 im Kontext der Klassifizierung von IT-Supporttickets, mit Vorverarbeitung, Fine-Tuning und Deployment"
+      - "Maschinelles Lernen: Regression, Random Forests, Bayes'sche Modellierung, Clustering, RNN, LSTM, PyTorch"
+      # - "Natural Language Processing: LSTM, Transformer, BERT, Information Retrieval"
+      - "Data-Mining-Laborkurs: Python, Pandas, Dask, Plotly, Matplotlib"
+      - "Betriebswirtschaft: Grundlagen Unternehmensführung, Business Plan Seminar, Innovationsmanagement"
+    # - "Security Engineering: Intrusion Detection, Common Vulnerabilities, Secure Software Engineering"
+    #- "Efficient Algorithms: Red-Black Trees, Hashing, Flows, Cuts, Matchings"
 
   - degree: B.Sc. Informatik
-    time: Oct 2016 - Sep 2020
+    time: Okt 2016 - Sep 2020
     university: Technische Universität München
-    location: Munich, Germany
     grade: 2.5
     details:
-      - "Bachelor-Thesis: Development of a software prototype for simulation of a dynamic business model using Python and TypeScript"
-      - "Fundamentals of computer science: Algorithms, Datastructures, Complexity, Automata, Logic"
-  - degree: High School "Allgemeine Hochschulreife"
-    time: Sep 2010 - Jun 2016
-    university: Ignaz-Taschner-Gymnasium
-    location: Dachau, Germany
-    grade: 1.7
-
-
-  - degree:
-    time: Sep 2008 - Jun 2010
-    university: Deutsche Schule Shanghai
-    location: Shanghai, China
-    details:
-      - "Science and technology high school with exams in mathematics, physics, computer science and geography"
-
+      - "Thesis: Entwicklung eines Software-Prototyps zur Modellierung und Simulation dynamischer Geschäftsmodelle mit Python und TypeScript"
+      - "Datenbanken: SQL, Datenmodellierung, Normalformen, Big Data"
+      - "Software Engineering: Java, UML-Modellierung, Requirements Engineering, Scrum"
+      - "Betriebswirtschaft: BWL I & II, VWL I & II, Entrepreneurship"
+      # - "Functional programming: OCAML, Higher Order Functions, Currying"
+      # - "IT Security: Encryption, Secret Exchange, Access Modelling"
+      # - "Probability Theory: Stochastic basics, Probabilistic modeling"
 keyskills:
   - skill: Python
     level: ●●●
@@ -122,16 +112,14 @@ skills:
 
 # Experience
 experience:
-  - role: Software Engineer - Working Student
-    time: Jan 2022-Present
+  - role: Software Engineer - Werkstudent
+    time: Jan 2022-Heute
     company: Kertos
     url: "https://www.kertos.io"
-    location: Munich
     details:
-      - Pioneered key features for the company’s product like automatic collection of records of processing activities (RoPA) leading to specific interest of new customers
-      # - Implemented the API for customers to import data into the product, serving four to five thousand requests per month
-      - Initiated collaborative knowledge sharing sessions, resulting in a more cohesive team as proved by 8.9 points in the satisfaction survey compared to 8.2 average
-      - Composed a grant application for the Helmholtz Institute worth 800.000€, which is currently pending final approval
+      - Einführung von Schlüsselfunktionen wie die automatische Erfassung von Aufzeichnungen über Verarbeitungstätigkeiten nach GDPR Art. 30, was zu einem besonderen Interesse von zwei neuen Kunden führte
+      - Implementierung der API für Kunden zum Datenimport, welche vier- bis fünftausend Anfragen pro Monat bearbeitet
+      - Initiierung von kollaborativen Wissensaustausch-Sitzungen, was zu einem stärkeren Zusammenhalt des Teams führte, wie 8,9 Punkte in der Zufriedenheitsumfrage im Vergleich zum Durchschnitt von 8,2 beweisen
     technologies_used:
       - Python
       - Django
@@ -141,16 +129,14 @@ experience:
       - Docker
       - Git
   
-  - role: Data Engineering Consultant - Internship
+  - role: Data Engineering Consultant - Praktikant
     time: Aug 2021-Jan 2022
     company: Aitaro
     url: "https://www.aitaro.de"
-    location: Munich
     details:
-      - Decreased processing time by approximately 32 hours per month for a client by implementing a data extraction and transformation pipeline, while also being resposible for communication and stakeholder management
-      # - Propelled a data-intensive customer project that involved requirements engineering, feature prioritization, and execution, resulting in a successful delivery on time
-      # - Implemented a pricing sentiment analysis tool for a client's Shopify plug-in, achieving 87% accuracy on the test set
-      - Initiated contact and presented the company to a potential client, resulting in a ~20k€ project
+      - Verringerung der Verarbeitungszeit um ca. 32 Stunden pro Monat für einen Kunden durch die Implementierung einer Pipeline zur Datenextraktion und -umwandlung
+      - Implementierung eines Tools zur Sentimentanalyse für das Shopify-Plug-in eines Kunden, das eine Genauigkeit von 91 % auf Testdaten erreichte
+      # - Demonstration bemerkenswerter Kompetenz bei der Ausführung offener Aufgaben unter minimaler Aufsicht und hervorragender Kommunikation mit dem Kunden
     technologies_used:
       - Python
       - Kedro
@@ -159,26 +145,24 @@ experience:
       - MLflow
       - Git
 
-  - role: Data Analytics - Working Student
+  - role: Data Analytics - Werkstudent
     time: Jan 2021 - Aug 2021
     company: Telefonica
     url: "https://www.telefonica.de"
-    location: Munich
     details: |
-      Developed an internal analytics tool for measuring the effect of specific promotion events on NPS with a focus on business impact and explainable AI, enabling the marketing and strategy department to make data-driven decisions
+      Entwicklung eines internen Analysetools zur Messung der Auswirkung spezifischer Werbeaktionen auf den NPS mit Fokus auf geschäftlichen Auswirkungen und erklärbarer KI, damit die Marketingabteilung datengestützte Entscheidungen treffen kann
     technologies_used:
       - Python
       - DataIKU
       - Pandas
       - Bayesian Modeling
-  - role: IT Security Consultancy - Working Student
-    time: Aug 2017 - Oct 2020
+  - role: IT Security Consultancy - Werkstudent
+    time: Aug 2017 - Okt 2020
     company: Ernst & Young
     url: "https://www.ey.com/en_gl/innovation-financial-services/cybersecurity"
-    location: Munich
     details:
-      - Conducted annual audits with focus on technical implementation of regulatory IT security requirements and consulting projects including reporting and preparation of sales documents
-      - Analyzed inefficiencies and created internal penetration testing tools for automation of manual processes leading to less regulatory risk and more efficient audits
+      - Durchführung jährlicher Audits mit Schwerpunkt auf der technischen Umsetzung gesetzlicher IT-Sicherheitsanforderungen und Beratungsprojekten im Bereich IT-Risiko und Cybersicherheit
+      - Entwicklung interner Tools für Penetrationstests und Automatisierung manueller Prozesse, was zu weniger regulatorischen Risiken und effizienteren Prüfungen führte
     technologies_used:
       - Burp Suite
       - WireShark
@@ -258,7 +242,6 @@ volunteering:
 
 # Interests
 interests:
-  - Triathlon,
-  - Ball Room Dancing,
-  - Reading,
+  - Reading
+  - Triathlon
   - Quantified-Self

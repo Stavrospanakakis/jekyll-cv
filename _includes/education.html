@@ -10,7 +10,10 @@
     {% for ed in education %}
         <div class="education-item">
             <div class="degree">{{ed.degree}}</div>
-            <div class="university">{{ed.university}}</div> 
+            <div class="university">{{ed.university}} - <i> {{ed.location}}</i></div>
+            {% if ed.grade %}
+<!--                <div class="grade">Grade <b>{{ed.grade}}</b> (best: 1.0, worst: 5.0)</div>-->
+            {% endif %}
             <div class="time">{{ed.time}}</div>
             <div class="details">
             <ul>

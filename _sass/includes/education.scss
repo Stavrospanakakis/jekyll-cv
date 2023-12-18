@@ -11,6 +11,9 @@
             @include body-text;
             font-weight: bold;
         }
+        .grade {
+            @include body-text;
+        }
         .time {
             @include body-text;
             float: right;

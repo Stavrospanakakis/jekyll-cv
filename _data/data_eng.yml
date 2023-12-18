@@ -3,15 +3,15 @@ support_dark_mode: false
 fork: false
 
 motivation:
-  firm_name: "McKinsey"
-  firm_long_name: "McKinsey & Company, Inc."
-  firm_street: "Kennedydamm 24"
-  firm_city: "40027 Düsseldorf"
+  firm_name: "BCG"
+  firm_long_name: "Boston Consulting Group GmbH"
+  firm_street: "Ludwigstraße 21"
+  firm_city: "80539 München"
   name: "Elias Berger"
   consulting: True
   developer: False
-  title: "Data Engineering Intern"
-  eng: False
+  title: "AI Security Engineer"
+  eng: True
   # contact: "Ms. Löffler"
 
 # Sidebar
@@ -38,12 +38,12 @@ education:
     time: Oct 2020 - Sep 2023
     university: Technical University Munich
     details:
-    - "Thesis: Apply GPT-4 in the context of IT support ticket classification including data pre-processing, data augmentation, model fine-tuning and deployment in production."
-    - "Machine Learning: Regression, Random Forests, Bayesian Modeling, Neural Networks, Clustering, PyTorch"
-    - "Machine Learning for Graph and Sequential Data: CNN, RNN, LSTM, Transformers, PyTorch"
+    - "Thesis: Apply GPT-3 in the context of IT support ticket classification including data pre-processing, data augmentation, model fine-tuning and deployment in production."
+    - "Machine Learning: Regression, Random Forests, Bayesian Modeling, Clustering, Neural Networks, Transformers, PyTorch"
     - "Natural Language Processing: LSTM, Transformer, BERT, Information Retrieval"
-    - "Data Mining Lab Course: Python, Pandas, Plotly, Matplotlib"
-    # - "Security Engineering: Intrusion Detection, Common Vulnerabilities, Secure Software Engineering"
+    - "Data Mining: Python, Pandas, Data Visualization with Matplotlib & Plotly"
+    # - "Security Engineering: Intrusion Detection, Obfuscation, Privacy Technologies, Risk Assessment"
+    # - "IT-Security: Cryptography, Secret Exchange, Trusted Computing, Web Security"
     #- "Efficient Algorithms: Red-Black Trees, Hashing, Flows, Cuts, Matchings"
 
   - degree: B.Sc. in Computer Science
@@ -61,17 +61,19 @@ keyskills:
     level: ●●●
   - skill: SQL
     level: ●●●
-  - skill: Kedro
+  - skill: Machine Learning
     level: ●●●
-  - skill: Git
-    level: ●●●
-  - skill: PostgreSQL
+  - skill: Docker
     level: ●●○
-  - skill: Apache Spark
-    level: ●○○
-  - skill: R
+  - skill: GraphQL
+    level: ●●○
+  - skill: TypeScript
     level: ●○○
   - skill: AWS
+    level: ●○○
+  - skill: Apache Spark
+    level: ●○○
+  - skill: Terraform
     level: ●○○
 
 

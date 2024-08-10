@@ -1,10 +1,6 @@
 .contact-resume {
     margin-bottom: 20px;
-    .title {
-        @include sub-header;
-        color: var(--fg-color);
-    }
-    .contact-resume-item {
+    .contact-item {
         display: flex;
         align-items: center;
         svg {

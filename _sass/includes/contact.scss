@@ -5,6 +5,11 @@
         color: var(--fg-color);
     }
     .contact-item {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        background-color: var(--bg-color-button);
+        padding: 10px;
+        border-radius: 20px;
         display: flex;
         align-items: center;
         .fa-brands, .fa-regular {
@@ -13,12 +18,7 @@
         }
         a {
             text-decoration: none;
-            padding-top: 4px;
-            padding-left: 4px;
             @include body-text;
-            &:hover {
-                text-decoration: underline;
-            }
         }
     }
 }

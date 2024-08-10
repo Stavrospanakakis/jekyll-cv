@@ -7,9 +7,7 @@
     .contact-item {
         display: flex;
         align-items: center;
-        svg {
-            width: 18px;
-            display: inline-block;
+        .fa-brands, .fa-regular {
             color: var(--fg-color);
         }
         a {

@@ -4,6 +4,20 @@
     line-height: 1.5;
 }
 
+:root {
+    --bg-color: #ffffff;
+    --bg-color-cv: #ffffff;
+    --bg-color-button: #d3d3d3;
+    --bg-color-button-hovered: #8f8f8f;
+    
+    --fg-color: #00629b;
+    --fg-color-dark: #023b5b;
+    --fg-color-body: #5e6369;
+    --fg-color-title-sm: #8f8f8f;
+    --fg-color-highlight: #202020;
+
+}
+
 body {
     background-color: var(--bg-color);
 }

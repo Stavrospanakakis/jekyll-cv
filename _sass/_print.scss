@@ -1,9 +1,14 @@
 @media print {
     @page {
-        size: 21cm 30cm;
+        size: 21cm 40cm;
+        margin: 0mm; /* this affects the margin in the printer settings */
+    }
+    html
+    {
+        margin: 0px;  /* this affects the margin on the html before sending to printer */
     }
     .container {
-        margin:0;
+        margin: 10mm; /* this affects the margin of the content */
         padding:0;
         width: 1000px;
         break-inside: avoid;

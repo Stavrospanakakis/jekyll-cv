@@ -1,10 +1,11 @@
 .header {
     width: 100%;
-    margin: 0 auto;
+    margin: 20px auto;
     .line1 {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 5px;
         .title {
             color: var(--fg-color-dark);
             font-weight: bolder;

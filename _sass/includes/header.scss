@@ -5,11 +5,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 0;
         .title {
             color: var(--fg-color-dark);
             font-weight: bolder;
             text-transform: uppercase;
+            margin: 0;
         }
         input[type="checkbox"] {
             width: 0;
@@ -23,7 +23,6 @@
 
     }
     .line2 {
-        margin-top: 0;
         .subtitle {
             @include body-text;
         }

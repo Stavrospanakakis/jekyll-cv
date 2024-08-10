@@ -2,24 +2,28 @@
     width: 100%;
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .title {
-        color: var(--fg-color-dark);
-        font-weight: bolder;
-        text-transform: uppercase;
+    .line1 {
+        justify-content: space-between;
+        align-items: center;
+        .title {
+            color: var(--fg-color-dark);
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        input[type="checkbox"] {
+            width: 0;
+            height:0;
+            display: none;
+        }
+        label {
+            cursor: pointer;
+            color: var(--fg-color-dark);
+        }
+
     }
-    .subtitle {
-        @include body-text;
-    }
-    input[type="checkbox"] {
-        width: 0;
-        height:0;
-        display: none;
-    }
-    label {
-        cursor: pointer;
-        color: var(--fg-color-dark);
-        
+    .line2 {
+        .subtitle {
+            @include body-text;
+        }
     }
 }

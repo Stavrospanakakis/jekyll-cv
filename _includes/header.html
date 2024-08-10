@@ -1,12 +1,10 @@
-<div class="header">
-    <div class="title">
+<div class="header">$
+  <div class="line1">
+    <h1 class="title">
       <a href="index.html">
         {{site.data.data.name}}
       </a>
-    </div>
-    <div class="subtitle">
-      {{site.data.data.description}}
-    </div>
+    </h1>
     {% if site.data.data.support_dark_mode%}
       <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
       <label for="switch">
@@ -14,3 +12,9 @@
       </label>
     {%endif%}
   </div>
+  <div class="line2"
+    <div class="subtitle">
+      {{site.data.data.description}}
+    </div>
+  </div>
+</div>

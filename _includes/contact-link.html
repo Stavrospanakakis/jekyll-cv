@@ -1,0 +1,45 @@
+{% assign contact = site.data.data.contact %}
+{% if contact %}
+<section class="contact-link">
+
+    <div class="title">
+        Contact
+    </div>
+
+    {% if contact.email %}
+        <a href="mailto:{{contact.email}}" class="contact-item">
+            <i class="fa-regular fa-envelope"></i>
+            {{contact.email}}
+        </a>
+    {% endif %}
+
+    {% if contact.github %}
+        <a href="{{contact.github}}" class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+        </a>
+    {% endif %}
+    
+    {% if contact.researchgate %}
+        <a href="{{contact.researchgate}}" class="contact-item">
+            <i class="fa-brands fa-researchgate"></i>
+            ResearchGate
+        </a>
+    {% endif %}
+    
+    {% if contact.google-scholar %}
+        <a href="{{contact.google-scholar}}" class="contact-item">
+            <i class="fa-brands fa-google-scholar"></i>
+            Google Scholar
+        </a>
+    {% endif %}
+    
+    {% if contact.orcid %}
+        <a href="{{contact.orcid}}" class="contact-item">
+            <i class="fa-brands fa-orcid"></i>
+            ORCID
+        </a>
+    {% endif %}
+
+</section>
+{% endif %}

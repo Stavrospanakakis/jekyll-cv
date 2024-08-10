@@ -9,6 +9,9 @@
         font-weight: bolder;
         text-transform: uppercase;
     }
+    .subtitle {
+        @include body-text;
+    }
     input[type="checkbox"] {
         width: 0;
         height:0;

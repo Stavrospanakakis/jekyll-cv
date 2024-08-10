@@ -1,0 +1,16 @@
+{% assign contact = site.data.data.contact %}
+{% if contact %}
+<section class="contact-resume">
+    {% if contact.email %}
+        <div class="contact-resume-item">
+            <a href="mailto:{{contact.email}}">
+                <i data-feather="mail"></i>
+            </a>
+            <a href="mailto:{{contact.email}}">
+                {{contact.email}}
+            </a>
+        </div>
+    {% endif %}
+
+</section>
+{% endif %}

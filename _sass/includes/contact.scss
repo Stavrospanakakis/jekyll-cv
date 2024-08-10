@@ -21,4 +21,8 @@
             @include body-text;
         }
     }
+    .contact-item:hover {
+        background-color: var(--bg-color-button-hover);
+        color: black;
+    }
 }

@@ -22,7 +22,7 @@
         justify-content: center;
         .fa-brands, .fa-regular {
             font-size: 18px;
-            color: var(--fg-color);
+            color: var(--text-color-highlight);
         }
         a {
             text-decoration: none;
@@ -44,7 +44,7 @@
         .time {
             @include body-text;
             text-align: right;
-            color: var(--fg-color-title-sm);
+            color: var(--text-color-lighter);
             font-weight: 100;
         }
         .role {

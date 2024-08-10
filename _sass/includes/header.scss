@@ -6,21 +6,11 @@
         justify-content: space-between;
         align-items: center;
         .title {
-            color: var(--fg-color-dark);
+            color: var(--text-color-title);
             font-weight: bolder;
             text-transform: uppercase;
             margin: 0;
         }
-        input[type="checkbox"] {
-            width: 0;
-            height:0;
-            display: none;
-        }
-        label {
-            cursor: pointer;
-            color: var(--fg-color-dark);
-        }
-
     }
     .line2 {
         .subtitle {

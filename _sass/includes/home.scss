@@ -32,7 +32,7 @@
         align-items: center;
         .fa-brands, .fa-regular {
             font-size: 18px;
-            color: var(--fg-color);
+            color: var(--text-color-highlight);
         }
         text-decoration: none;
         @include body-text;

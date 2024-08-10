@@ -7,48 +7,38 @@
     </div>
 
     {% if contact.email %}
-        <div class="contact-item">
-            <a href="mailto:{{contact.email}}">
-                <i class="fa-regular fa-envelope"></i>
-                {{contact.email}}
-            </a>
-        </div>
+        <a href="mailto:{{contact.email}}" class="contact-item">
+            <i class="fa-regular fa-envelope"></i>
+            {{contact.email}}
+        </a>
     {% endif %}
 
     {% if contact.github %}
-        <div class="contact-item">
-            <a href="{{contact.github}}">
-                <i class="fa-brands fa-github"></i>
-                GitHub
-            </a>
-        </div>
+        <a href="{{contact.github}}" class="contact-item">
+            <i class="fa-brands fa-github"></i>
+            GitHub
+        </a>
     {% endif %}
     
     {% if contact.researchgate %}
-        <div class="contact-item">
-            <a href="{{contact.researchgate}}">
-                <i class="fa-brands fa-researchgate"></i>
-                ResearchGate
-            </a>
-        </div>
+        <a href="{{contact.researchgate}}" class="contact-item">
+            <i class="fa-brands fa-researchgate"></i>
+            ResearchGate
+        </a>
     {% endif %}
     
     {% if contact.google-scholar %}
-        <div class="contact-item">
-            <a href="{{contact.google-scholar}}">
-                <i class="fa-brands fa-google-scholar"></i>
-                Google Scholar
-            </a>
-        </div>
+        <a href="{{contact.google-scholar}}" class="contact-item">
+            <i class="fa-brands fa-google-scholar"></i>
+            Google Scholar
+        </a>
     {% endif %}
     
     {% if contact.orcid %}
-        <div class="contact-item">
-            <a href="{{contact.orcid}}">
-                <i class="fa-brands fa-orcid"></i>
-                ORCID
-            </a>
-        </div>
+        <a href="{{contact.orcid}}" class="contact-item">
+            <i class="fa-brands fa-orcid"></i>
+            ORCID
+        </a>
     {% endif %}
 
 </section>

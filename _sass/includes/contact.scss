@@ -16,10 +16,8 @@
             font-size: 18px;
             color: var(--fg-color);
         }
-        a {
-            text-decoration: none;
-            @include body-text;
-        }
+        text-decoration: none;
+        @include body-text;
     }
     .contact-item:hover {
         background-color: var(--bg-color-button-hover);

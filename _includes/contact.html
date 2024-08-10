@@ -1,6 +1,11 @@
 {% assign contact = site.data.data.contact %}
 {% if contact %}
 <section class="contact">
+
+    <div class="title">
+        Contact
+    </div>
+
     {% if contact.email %}
         <div class="contact-item">
             <a href="mailto:{{contact.email}}">
@@ -8,6 +13,50 @@
             </a>
             <a href="mailto:{{contact.email}}">
                 {{contact.email}}
+            </a>
+        </div>
+    {% endif %}
+
+    {% if contact.github %}
+        <div class="contact-item">
+            <a href="{{contact.github}}">
+                <i data-feather="github"></i>
+            </a>
+            <a href="{{contact.github}}">
+                GitHub
+            </a>
+        </div>
+    {% endif %}
+    
+    {% if contact.researchgate %}
+        <div class="contact-item">
+            <a href="{{contact.researchgate}}">
+                <i data-feather="github"></i>
+            </a>
+            <a href="{{contact.researchgate}}">
+                ResearchGate
+            </a>
+        </div>
+    {% endif %}
+    
+    {% if contact.google-scholar %}
+        <div class="contact-item">
+            <a href="{{contact.google-scholar}}">
+                <i data-feather="github"></i>
+            </a>
+            <a href="{{contact.google-scholar}}">
+                Google Scholar
+            </a>
+        </div>
+    {% endif %}
+    
+    {% if contact.orcid %}
+        <div class="contact-item">
+            <a href="{{contact.orcid}}">
+                <i data-feather="github"></i>
+            </a>
+            <a href="{{contact.orcid}}">
+                ORCID
             </a>
         </div>
     {% endif %}

@@ -1,11 +1,11 @@
 .header {
     width: 100%;
-    margin: 20px auto;
+    margin: 0 auto 40px;
     .line1 {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 5px;
+        margin-bottom: 0;
         .title {
             color: var(--fg-color-dark);
             font-weight: bolder;
@@ -23,6 +23,7 @@
 
     }
     .line2 {
+        margin-top: 0;
         .subtitle {
             @include body-text;
         }

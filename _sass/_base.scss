@@ -26,17 +26,3 @@ body {
     }
 
 }
-
-#grid_home {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 70% auto;
-}
-
-#column_left_home {
-    padding-right: 20px;
-}
-
-#column_right_home {
-    padding-left: 20px;
-}

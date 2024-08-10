@@ -1,0 +1,80 @@
+#grid_resume {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 20% auto;
+}
+
+#column_left_resume {
+    padding-right: 10px;
+    padding-bottom:20px;
+}
+
+#column_right_resume {
+    padding-left: 10px;
+    padding-bottom:20px;
+}
+
+.contact {
+    margin-bottom: 20px;
+    .contact-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .fa-brands, .fa-regular {
+            font-size: 18px;
+            color: var(--fg-color);
+        }
+        a {
+            text-decoration: none;
+            padding-top: 4px;
+            padding-left: 4px;
+            @include body-text;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.experience {
+    .title {
+        @include header;
+    }
+    .experience-item {
+        .time {
+            @include body-text;
+            text-align: right;
+            color: var(--fg-color-title-sm);
+            font-weight: 100;
+        }
+        .role {
+            @include sub-header;
+        }
+        .company {
+            @include body-text;
+            font-style: italic;
+        }
+        .details {
+            @include body-text;
+        }
+    }
+}
+
+.publications {
+    .title {
+        @include header;
+    }
+    .publication-items {
+        .publication-item {
+            margin-bottom: 20px;
+            .publication-title {
+                a {
+                    @include sub-header;
+                }
+            }
+            .citation {
+                @include body-text; 
+            }
+        }
+    }
+}

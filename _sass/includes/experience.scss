@@ -5,7 +5,7 @@
     .experience-item {
         .time {
             @include body-text;
-            float: right;
+            text-align: right;
             color: var(--fg-color-title-sm);
             font-weight: 100;
         }

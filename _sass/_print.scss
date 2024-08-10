@@ -1,11 +1,11 @@
 @media print {
     @page {
-        size: portrait;
+        size: 21cm 30cm;
     }
     .container {
         margin:0;
         padding:0;
-        width: 500px;
+        width: 1000px;
         break-inside: avoid;
     }
 }

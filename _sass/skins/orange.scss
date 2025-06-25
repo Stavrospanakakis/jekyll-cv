@@ -1,0 +1,17 @@
+:root {
+    --bg-color: #fff4e6;             /* Light orange/cream background */
+    --bg-color-cv: #ffffff;          /* White background for cards */
+    --fg-color: #ff7f11;             /* Primary orange accent */
+    --fg-color-dark: #cc6600;        /* Darker orange for emphasis */
+    --fg-color-body: #5a4a42;        /* Warm brown-gray for body text */
+    --fg-color-title-sm: #b17850;    /* Soft orange-brown for subtitles */
+}
+
+[data-theme='dark'] {
+    --bg-color: #3b2e2a;             /* Deep warm background */
+    --bg-color-cv: #2a1f1c;          /* Darker card background */
+    --fg-color: #ffa63d;             /* Bright orange accent */
+    --fg-color-dark: #ff8500;        /* Strong orange for emphasis */
+    --fg-color-body: rgba(255, 221, 180, 0.8);  /* Warm readable body text */
+    --fg-color-title-sm: #d69a72;    /* Subtitle color with orange tone */
+}

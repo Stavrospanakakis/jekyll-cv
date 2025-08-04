@@ -13,3 +13,9 @@ plugins:
 
 exclude:
   - docker-compose.yml
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - preview.png
+  - LICENSE

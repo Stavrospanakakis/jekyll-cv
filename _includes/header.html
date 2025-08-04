@@ -1,7 +1,15 @@
 <div class="header">
+  <div class="header-left">
+    {% if site.data.data.avatar %}
+    <img class="avatar" src="{{ site.data.data.avatar | relative_url }}" alt="Avatar">
+    {% endif %}
     <h1 class="title">{{site.data.data.name}}</h1>
+  </div>
+
+  <div class="header-right">
     {% if site.data.data.support_dark_mode%}
-      <input type="checkbox" id="switch" name="mode" class="toggle-dark"></input>
-      <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
+    <input type="checkbox" id="switch" name="mode" class="toggle-dark">
+    <label for="switch"><i id="moon" data-feather="moon" fill="var(--fg-color)"></i></label>
     {%endif%}
   </div>
+</div>

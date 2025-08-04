@@ -21,6 +21,15 @@ Free theme for the creation of your CV. View demo [here](https://jekyll-cv.stavr
 
 Go to https://username.github.io/jekyll-cv/
 
+## Local Development with Docker
+To facilitate local development and previewing changes, this project includes a Dockerized environment. This allows you to run the site without installing Ruby or any other dependencies directly on your system.
+
+### Running the development server
+Once you have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed, you can start the local server with a single command from the project root:
+```bash
+docker compose up
+```
+
 ## Contributing 
 - Feel free to open issues and create pull requests for new features or skins
 

@@ -1,22 +1,39 @@
 .header {
-    width: 90%;
-    margin: 0 auto;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .header-left {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    .title {
-        color: var(--fg-color-dark);
-        font-weight: bolder;
-        text-transform: uppercase;
-    }
-    input[type="checkbox"] {
-        width: 0;
-        height:0;
-        display: none;
+    gap: 1.2rem;
+  }
+
+  .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--fg-color-dark);
+  }
+
+  .title {
+    color: var(--fg-color-dark);
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+
+  .header-right {
+    input[type='checkbox'] {
+      width: 0;
+      height: 0;
+      display: none;
     }
     label {
-        cursor: pointer;
-        color: var(--fg-color-dark);
-        
+      cursor: pointer;
+      color: var(--fg-color-dark);
     }
+  }
 }

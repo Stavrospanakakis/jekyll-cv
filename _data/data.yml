@@ -1,4 +1,5 @@
 name: John Doe
+avatar: assets/img/avatar.png
 support_dark_mode: true
 fork: true
 

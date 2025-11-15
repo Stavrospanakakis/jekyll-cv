@@ -1,13 +1,15 @@
-.experiance {
+@use "../mixins";
+
+.experience {
     .title {
-        @include header;
+        @include mixins.header;
     }
     .experience-item {
         .role {
-            @include sub-header;
+            @include mixins.sub-header;
         }
         .company {
-            @include body-text;
+            @include mixins.body-text;
             font-weight: bold;
             .time {
                 float: right;
@@ -16,10 +18,10 @@
             }
         }
         .details {
-            @include body-text;
+            @include mixins.body-text;
         }
         .technologies {
-            @include body-text;
+            @include mixins.body-text;
         }
     }
 }

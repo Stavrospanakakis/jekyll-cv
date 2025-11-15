@@ -1,10 +1,12 @@
+@use "../mixins";
+
 .skills {
     margin-bottom: 20px;
     .title {
         margin-top: 20px;
-        @include sub-header;
+        @include mixins.sub-header;
     }
     .skill {
-        @include body-text;
+        @include mixins.body-text;
     }
 }

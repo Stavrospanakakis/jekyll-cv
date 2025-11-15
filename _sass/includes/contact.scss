@@ -1,7 +1,9 @@
+@use "../mixins";
+
 .contact {
     margin-bottom: 20px;
     .title {
-        @include sub-header;
+        @include mixins.sub-header;
     }
     .contact-item {
         display: flex;
@@ -15,7 +17,7 @@
             text-decoration: none;
             padding-top: 4px;
             padding-left: 4px;
-            @include body-text;
+            @include mixins.body-text;
             &:hover {
                 text-decoration: underline;
             }

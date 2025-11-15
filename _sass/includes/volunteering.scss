@@ -1,14 +1,16 @@
+@use "../mixins";
+
 .volunteering {
     .title {
-        @include header;
+        @include mixins.header;
     }
     .volunteering-item {
         margin-bottom: 20px;
         .role {
-            @include sub-header;
+            @include mixins.sub-header;
         }
         .organization {
-            @include body-text;
+            @include mixins.body-text;
             font-weight: bold;
             .time {
                 float: right;
@@ -17,7 +19,7 @@
             }
         }
         .details {
-            @include body-text;
+            @include mixins.body-text;
         }
     }
 }

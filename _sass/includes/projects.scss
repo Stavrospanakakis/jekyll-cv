@@ -1,14 +1,16 @@
+@use "../mixins";
+
 .projects {
     .title {
-        @include header;
+        @include mixins.header;
     }
     .project {
         margin-bottom: 20px;
         .project-link {
-            @include body-text;
+            @include mixins.body-text;
         }
         .details {
-            @include body-text;
+            @include mixins.body-text;
         }
     }
 }

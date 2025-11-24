@@ -1,77 +1,48 @@
-name: John Doe
+name: Hansol Kim
 support_dark_mode: true
 fork: true
 
 # Sidebar
 contact:
-  email: info@johndoe.com
-  github: johndoe
-  linkedin: johndoe
-  phone: 
+  email: hansol@postech.ac.kr
+  github: https://github.com/hskim-kr
+  linkedin: https://www.linkedin.com/in/hansol-kim
+  phone: +82-10-5098-0689
   gitlab: 
   twitter: 
 
 languages:
+  - idiom: Korean
   - idiom: English
-  - idiom: Russian
-  - idiom: French
 
 education:
-  - degree: MSc in Informatics
-    time: 2014-2016
-    university: Ionian University
+  - degree: MSc in Industrial and Management Engineering
+    time: 2021-2024
+    university: Pohang University of Science and Technology
 
-  - degree: BSc in Computer Science
-    time: 2010-2014
-    university: Ionian University
+  - degree: BSc in Industrial Engineering
+    time: 2016-2021
+    university: Inha University
 
 skills:
-  - category: Backend
+  - category: Programming
     skill: 
-      - Go
-      - Rust
-  - category: Frontend
-    skill:
-      - React
-      - Typescript
-  - category: DevOps
-    skill:
-      - Docker
-      - Kubernetes 
+      - C++
+      - Python
 
 # Profile
 profile: |
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-  fugiat nulla pariatur.
+  TBD
 
 # Experience
 experience:
-  - role: Software Engineer
-    time: 2020-Present
-    company: Google
+  - role: TBD
+    time: TBD
+    company: TBD
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
+      TBD
     technologies_used: | 
-      Go, Angular, Typescript, C++
-  
-  - role: Researcher
-    time: 2016-2020
-    company: Microsoft
-    details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-      fugiat nulla pariatur.
-    technologies_used: | 
-      Python, Tensorflow, Keras, Matlab
+      TBD
 
 publications:
   - title: Random title of paper. An interesting one.
@@ -85,23 +56,21 @@ publications:
     conference: Some conference again, 2018
 
 projects:
-  - title: Cool Project 
+  - title: TBD
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      TBD
 
-  - title: Cool Project 
+  - title: TBD
     link: #
     details: |
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-      tempor incididunt ut labore et dolore magna aliqua.
+      TBD
 
 # Volunteering
 volunteering:
-  - time: 2020-Present
-    role: PR Manager
-    company: Some random organization
+  - time: TBD
+    role: TBD
+    company: TBD
     details: |
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
